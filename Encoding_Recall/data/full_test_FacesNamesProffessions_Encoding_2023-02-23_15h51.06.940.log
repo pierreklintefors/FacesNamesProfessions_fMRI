@@ -1,0 +1,2103 @@
+4.4949 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+17.5588 	INFO 	Loaded monitor calibration from ['2023_02_14 10:00']
+17.5714 	WARNING 	User requested fullscreen with size [1280  720], but screen is actually [1920, 1080]. Using actual size
+18.3825 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002C3F3410310>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002C3F97A14F0>, multiSample=False, name='window1', numSamples=2, pos=(-16, 1080), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.3827 	EXP 	window1: mouseVisible = True
+18.3827 	EXP 	window1: mouseVisible = False
+18.3828 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+18.3828 	EXP 	window1: recordFrameIntervals = False
+18.5485 	EXP 	window1: recordFrameIntervals = True
+18.7317 	EXP 	Screen (0) actual frame rate measured at 60.11Hz
+18.7318 	EXP 	window1: recordFrameIntervals = False
+20.3364 	INFO 	keyboard.Keyboard is using iohub backend.
+20.4741 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.4742 	INFO 	keyboard.Keyboard is using iohub backend.
+20.4754 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+20.4788 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+20.4905 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([0.  , 0.05]), size=array([0.748, 0.755]), texRes=128.0, units='height', win=Window(...))
+20.4915 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_8', opacity=1.0, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+20.4922 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+20.4938 	EXP 	Created fingers = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.045, italic=False, languageStyle='LTR', name='fingers', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=600.0)
+20.4950 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+20.4950 	INFO 	keyboard.Keyboard is using iohub backend.
+20.4975 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0.  , 0.05]), size=array([0.748, 0.755]), texRes=128.0, units='height', win=Window(...))
+20.4979 	EXP 	Created letters_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='letters_text', opacity=1.0, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1000.0)
+20.5088 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Nu är det dags för yrken', units='height', win=Window(...), wrapWidth=1)
+20.5095 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+20.5107 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+20.5134 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([0.  , 0.05]), size=array([0.748, 0.755]), texRes=128.0, units='height', win=Window(...))
+20.5141 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_8', opacity=1.0, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+20.5148 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+20.5154 	EXP 	Created fingers = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.045, italic=False, languageStyle='LTR', name='fingers', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=600.0)
+20.5164 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0.1, name='polygon', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+20.5165 	INFO 	keyboard.Keyboard is using iohub backend.
+20.5197 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0.  , 0.05]), size=array([0.748, 0.755]), texRes=128.0, units='height', win=Window(...))
+20.5202 	EXP 	Created letters_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='letters_text', opacity=1.0, ori=0.0, pos=array([ 0.   , -0.375]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1000.0)
+20.5463 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.5507 	EXP 	text: autoDraw = True
+21.8995 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+21.8997 	EXP 	New trial (rep=0, index=0): None
+21.9054 	DATA 	Keypress: space
+21.9139 	EXP 	text: autoDraw = False
+21.9139 	EXP 	text_9: height = 0.1
+21.9139 	EXP 	text_9: height = 0.1
+21.9139 	EXP 	text_9: height = 0.1
+21.9139 	EXP 	text_9: text = 'Memorera namn'
+21.9139 	EXP 	text_9: autoDraw = True
+25.9047 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+25.9061 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+25.9072 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+25.9074 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O35.jpg', 'Name': 'Henrik', 'Proffession': 0, 'order_randomiser': 5}
+25.9136 	EXP 	text_9: autoDraw = False
+25.9136 	EXP 	text_9: autoDraw = False
+25.9136 	EXP 	polygon: autoDraw = True
+27.9343 	EXP 	polygon: autoDraw = False
+27.9343 	EXP 	polygon: autoDraw = False
+27.9343 	EXP 	image_3: image = 'Images_Faces/O35.jpg'
+27.9343 	EXP 	text_8: text = ''
+27.9343 	EXP 	text_8: height = 0.1
+27.9343 	EXP 	text_8: height = 0.1
+27.9343 	EXP 	text_8: height = 0.1
+27.9343 	EXP 	text_8: text = 'Henrik'
+27.9343 	EXP 	image_3: autoDraw = True
+27.9343 	EXP 	text_8: autoDraw = True
+31.9141 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O55.jpg', 'Name': 'Kjell', 'Proffession': 0, 'order_randomiser': 91}
+31.9312 	EXP 	image_3: autoDraw = False
+31.9312 	EXP 	text_8: autoDraw = False
+31.9312 	EXP 	polygon: autoDraw = True
+33.9420 	EXP 	polygon: autoDraw = False
+33.9420 	EXP 	polygon: autoDraw = False
+33.9420 	EXP 	image_3: image = 'Images_Faces/O55.jpg'
+33.9420 	EXP 	text_8: height = 0.1
+33.9420 	EXP 	text_8: height = 0.1
+33.9420 	EXP 	text_8: height = 0.1
+33.9420 	EXP 	text_8: text = ''
+33.9420 	EXP 	text_8: height = 0.1
+33.9420 	EXP 	text_8: height = 0.1
+33.9420 	EXP 	text_8: height = 0.1
+33.9420 	EXP 	text_8: text = 'Kjell'
+33.9420 	EXP 	image_3: autoDraw = True
+33.9420 	EXP 	text_8: autoDraw = True
+37.9310 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O56.jpg', 'Name': 'William', 'Proffession': 0, 'order_randomiser': 60}
+37.9470 	EXP 	image_3: autoDraw = False
+37.9470 	EXP 	text_8: autoDraw = False
+37.9470 	EXP 	polygon: autoDraw = True
+39.9517 	EXP 	polygon: autoDraw = False
+39.9517 	EXP 	polygon: autoDraw = False
+39.9517 	EXP 	image_3: image = 'Images_Faces/O56.jpg'
+39.9517 	EXP 	text_8: height = 0.1
+39.9517 	EXP 	text_8: height = 0.1
+39.9517 	EXP 	text_8: height = 0.1
+39.9517 	EXP 	text_8: text = ''
+39.9517 	EXP 	text_8: height = 0.1
+39.9517 	EXP 	text_8: height = 0.1
+39.9517 	EXP 	text_8: height = 0.1
+39.9517 	EXP 	text_8: text = 'William'
+39.9517 	EXP 	image_3: autoDraw = True
+39.9517 	EXP 	text_8: autoDraw = True
+43.9479 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O49.jpg', 'Name': 'Arne', 'Proffession': 0, 'order_randomiser': 71}
+43.9639 	EXP 	image_3: autoDraw = False
+43.9639 	EXP 	text_8: autoDraw = False
+43.9639 	EXP 	polygon: autoDraw = True
+45.9737 	EXP 	polygon: autoDraw = False
+45.9737 	EXP 	polygon: autoDraw = False
+45.9737 	EXP 	image_3: image = 'Images_Faces/O49.jpg'
+45.9737 	EXP 	text_8: height = 0.1
+45.9737 	EXP 	text_8: height = 0.1
+45.9737 	EXP 	text_8: height = 0.1
+45.9737 	EXP 	text_8: text = ''
+45.9737 	EXP 	text_8: height = 0.1
+45.9737 	EXP 	text_8: height = 0.1
+45.9737 	EXP 	text_8: height = 0.1
+45.9737 	EXP 	text_8: text = 'Arne'
+45.9737 	EXP 	image_3: autoDraw = True
+45.9737 	EXP 	text_8: autoDraw = True
+49.9487 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O53.jpg', 'Name': 'Christoffer', 'Proffession': 0, 'order_randomiser': 53}
+49.9648 	EXP 	image_3: autoDraw = False
+49.9648 	EXP 	text_8: autoDraw = False
+49.9648 	EXP 	polygon: autoDraw = True
+51.9741 	EXP 	polygon: autoDraw = False
+51.9741 	EXP 	polygon: autoDraw = False
+51.9741 	EXP 	image_3: image = 'Images_Faces/O53.jpg'
+51.9741 	EXP 	text_8: height = 0.1
+51.9741 	EXP 	text_8: height = 0.1
+51.9741 	EXP 	text_8: height = 0.1
+51.9741 	EXP 	text_8: text = ''
+51.9741 	EXP 	text_8: height = 0.1
+51.9741 	EXP 	text_8: height = 0.1
+51.9741 	EXP 	text_8: height = 0.1
+51.9741 	EXP 	text_8: text = 'Christoffer'
+51.9741 	EXP 	image_3: autoDraw = True
+51.9741 	EXP 	text_8: autoDraw = True
+55.9953 	EXP 	image_3: autoDraw = False
+55.9953 	EXP 	text_8: autoDraw = False
+55.9953 	EXP 	text_6: height = 0.1
+55.9953 	EXP 	text_6: height = 0.1
+55.9953 	EXP 	text_6: height = 0.1
+55.9953 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+55.9953 	EXP 	fingers: height = 0.045
+55.9953 	EXP 	fingers: height = 0.045
+55.9953 	EXP 	fingers: height = 0.045
+55.9953 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+55.9953 	EXP 	text_6: autoDraw = True
+55.9953 	EXP 	fingers: autoDraw = True
+61.9714 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+61.9728 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+61.9731 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+61.9733 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O35.jpg', 'Name': 'Henrik', 'Proffession': 0, 'order_randomiser': 5}
+61.9803 	EXP 	text_6: autoDraw = False
+61.9803 	EXP 	fingers: autoDraw = False
+61.9803 	EXP 	polygon: autoDraw = True
+63.9922 	EXP 	polygon: autoDraw = False
+63.9922 	EXP 	polygon: autoDraw = False
+63.9922 	EXP 	image: image = 'Images_Faces/O35.jpg'
+63.9922 	EXP 	letters_text: height = 0.1
+63.9922 	EXP 	letters_text: height = 0.1
+63.9922 	EXP 	letters_text: height = 0.1
+63.9922 	EXP 	letters_text: text = 'L.\t\t\t\tR.\t\t\t\tH.\t\t\t\tNY'
+63.9922 	EXP 	image: autoDraw = True
+63.9922 	EXP 	letters_text: autoDraw = True
+65.6155 	DATA 	Keypress: 3
+67.9830 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O56.jpg', 'Name': 'William', 'Proffession': 0, 'order_randomiser': 60}
+67.9971 	EXP 	image: autoDraw = False
+67.9971 	EXP 	letters_text: autoDraw = False
+67.9971 	EXP 	polygon: autoDraw = True
+69.9983 	EXP 	polygon: autoDraw = False
+69.9983 	EXP 	polygon: autoDraw = False
+69.9983 	EXP 	image: image = 'Images_Faces/O56.jpg'
+69.9983 	EXP 	letters_text: height = 0.1
+69.9983 	EXP 	letters_text: height = 0.1
+69.9983 	EXP 	letters_text: height = 0.1
+69.9983 	EXP 	letters_text: text = 'Ä.\t\t\t\tU.\t\t\t\tW.\t\t\t\tNY'
+69.9983 	EXP 	image: autoDraw = True
+69.9983 	EXP 	letters_text: autoDraw = True
+71.3152 	DATA 	Keypress: 3
+73.9820 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O49.jpg', 'Name': 'Arne', 'Proffession': 0, 'order_randomiser': 71}
+73.9976 	EXP 	image: autoDraw = False
+73.9976 	EXP 	letters_text: autoDraw = False
+73.9976 	EXP 	image: autoDraw = False
+73.9976 	EXP 	letters_text: autoDraw = False
+73.9976 	EXP 	polygon: autoDraw = True
+75.9971 	EXP 	polygon: autoDraw = False
+75.9971 	EXP 	polygon: autoDraw = False
+75.9971 	EXP 	image: image = 'Images_Faces/O49.jpg'
+75.9971 	EXP 	letters_text: height = 0.1
+75.9971 	EXP 	letters_text: height = 0.1
+75.9971 	EXP 	letters_text: height = 0.1
+75.9971 	EXP 	letters_text: text = 'C.\t\t\t\tU.\t\t\t\tA.\t\t\t\tNY'
+75.9971 	EXP 	image: autoDraw = True
+75.9971 	EXP 	letters_text: autoDraw = True
+77.0164 	DATA 	Keypress: 3
+79.9820 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O55.jpg', 'Name': 'Kjell', 'Proffession': 0, 'order_randomiser': 91}
+79.9981 	EXP 	image: autoDraw = False
+79.9981 	EXP 	letters_text: autoDraw = False
+79.9981 	EXP 	polygon: autoDraw = True
+81.9986 	EXP 	polygon: autoDraw = False
+81.9986 	EXP 	polygon: autoDraw = False
+81.9986 	EXP 	image: image = 'Images_Faces/O55.jpg'
+81.9986 	EXP 	letters_text: height = 0.1
+81.9986 	EXP 	letters_text: height = 0.1
+81.9986 	EXP 	letters_text: height = 0.1
+81.9986 	EXP 	letters_text: text = 'Ä.\t\t\t\tK.\t\t\t\tA.\t\t\t\tNY'
+81.9986 	EXP 	image: autoDraw = True
+81.9986 	EXP 	letters_text: autoDraw = True
+83.6652 	DATA 	Keypress: 2
+85.9975 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O53.jpg', 'Name': 'Christoffer', 'Proffession': 0, 'order_randomiser': 53}
+86.0138 	EXP 	image: autoDraw = False
+86.0138 	EXP 	letters_text: autoDraw = False
+86.0138 	EXP 	polygon: autoDraw = True
+88.0167 	EXP 	polygon: autoDraw = False
+88.0167 	EXP 	polygon: autoDraw = False
+88.0167 	EXP 	image: image = 'Images_Faces/O53.jpg'
+88.0167 	EXP 	letters_text: height = 0.1
+88.0167 	EXP 	letters_text: height = 0.1
+88.0167 	EXP 	letters_text: height = 0.1
+88.0167 	EXP 	letters_text: text = 'H.\t\t\t\tC.\t\t\t\tJ.\t\t\t\tNY'
+88.0167 	EXP 	image: autoDraw = True
+88.0167 	EXP 	letters_text: autoDraw = True
+89.1330 	DATA 	Keypress: 2
+92.0301 	EXP 	New trial (rep=1, index=0): None
+92.0330 	EXP 	image: autoDraw = False
+92.0330 	EXP 	letters_text: autoDraw = False
+92.0330 	EXP 	text_9: text = 'Memorera namn'
+92.0330 	EXP 	text_9: autoDraw = True
+96.0185 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+96.0198 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+96.0201 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+96.0204 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O39.jpg', 'Name': 'Björn', 'Proffession': 0, 'order_randomiser': 23}
+96.0305 	EXP 	text_9: autoDraw = False
+96.0305 	EXP 	polygon: autoDraw = True
+98.0362 	EXP 	polygon: autoDraw = False
+98.0362 	EXP 	polygon: autoDraw = False
+98.0362 	EXP 	image_3: image = 'Images_Faces/O39.jpg'
+98.0362 	EXP 	text_8: height = 0.1
+98.0362 	EXP 	text_8: height = 0.1
+98.0362 	EXP 	text_8: height = 0.1
+98.0362 	EXP 	text_8: text = ''
+98.0362 	EXP 	text_8: height = 0.1
+98.0362 	EXP 	text_8: height = 0.1
+98.0362 	EXP 	text_8: height = 0.1
+98.0362 	EXP 	text_8: text = 'Björn'
+98.0362 	EXP 	image_3: autoDraw = True
+98.0362 	EXP 	text_8: autoDraw = True
+102.0308 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O48.jpg', 'Name': 'Bertil', 'Proffession': 0, 'order_randomiser': 42}
+102.0472 	EXP 	image_3: autoDraw = False
+102.0472 	EXP 	text_8: autoDraw = False
+102.0472 	EXP 	polygon: autoDraw = True
+104.0484 	EXP 	polygon: autoDraw = False
+104.0484 	EXP 	polygon: autoDraw = False
+104.0484 	EXP 	image_3: image = 'Images_Faces/O48.jpg'
+104.0484 	EXP 	text_8: height = 0.1
+104.0484 	EXP 	text_8: height = 0.1
+104.0484 	EXP 	text_8: height = 0.1
+104.0484 	EXP 	text_8: text = ''
+104.0484 	EXP 	text_8: height = 0.1
+104.0484 	EXP 	text_8: height = 0.1
+104.0484 	EXP 	text_8: height = 0.1
+104.0484 	EXP 	text_8: text = 'Bertil'
+104.0484 	EXP 	image_3: autoDraw = True
+104.0484 	EXP 	text_8: autoDraw = True
+108.0322 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O44.jpg', 'Name': 'Viktor', 'Proffession': 0, 'order_randomiser': 4}
+108.0473 	EXP 	image_3: autoDraw = False
+108.0473 	EXP 	text_8: autoDraw = False
+108.0473 	EXP 	image_3: autoDraw = False
+108.0473 	EXP 	text_8: autoDraw = False
+108.0473 	EXP 	polygon: autoDraw = True
+110.0551 	EXP 	polygon: autoDraw = False
+110.0551 	EXP 	polygon: autoDraw = False
+110.0551 	EXP 	image_3: image = 'Images_Faces/O44.jpg'
+110.0551 	EXP 	text_8: height = 0.1
+110.0551 	EXP 	text_8: height = 0.1
+110.0551 	EXP 	text_8: height = 0.1
+110.0551 	EXP 	text_8: text = ''
+110.0551 	EXP 	text_8: height = 0.1
+110.0551 	EXP 	text_8: height = 0.1
+110.0551 	EXP 	text_8: height = 0.1
+110.0551 	EXP 	text_8: text = 'Viktor'
+110.0551 	EXP 	image_3: autoDraw = True
+110.0551 	EXP 	text_8: autoDraw = True
+114.0479 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O31.jpg', 'Name': 'Filip', 'Proffession': 0, 'order_randomiser': 87}
+114.0640 	EXP 	image_3: autoDraw = False
+114.0640 	EXP 	text_8: autoDraw = False
+114.0640 	EXP 	polygon: autoDraw = True
+116.0661 	EXP 	polygon: autoDraw = False
+116.0661 	EXP 	polygon: autoDraw = False
+116.0661 	EXP 	image_3: image = 'Images_Faces/O31.jpg'
+116.0661 	EXP 	text_8: height = 0.1
+116.0661 	EXP 	text_8: height = 0.1
+116.0661 	EXP 	text_8: height = 0.1
+116.0661 	EXP 	text_8: text = ''
+116.0661 	EXP 	text_8: height = 0.1
+116.0661 	EXP 	text_8: height = 0.1
+116.0661 	EXP 	text_8: height = 0.1
+116.0661 	EXP 	text_8: text = 'Filip'
+116.0661 	EXP 	image_3: autoDraw = True
+116.0661 	EXP 	text_8: autoDraw = True
+120.0644 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O37.jpg', 'Name': 'Ulf', 'Proffession': 0, 'order_randomiser': 46}
+120.0810 	EXP 	image_3: autoDraw = False
+120.0810 	EXP 	text_8: autoDraw = False
+120.0810 	EXP 	polygon: autoDraw = True
+122.0807 	EXP 	polygon: autoDraw = False
+122.0807 	EXP 	polygon: autoDraw = False
+122.0807 	EXP 	image_3: image = 'Images_Faces/O37.jpg'
+122.0807 	EXP 	text_8: height = 0.1
+122.0807 	EXP 	text_8: height = 0.1
+122.0807 	EXP 	text_8: height = 0.1
+122.0807 	EXP 	text_8: text = ''
+122.0807 	EXP 	text_8: height = 0.1
+122.0807 	EXP 	text_8: height = 0.1
+122.0807 	EXP 	text_8: height = 0.1
+122.0807 	EXP 	text_8: text = 'Ulf'
+122.0807 	EXP 	image_3: autoDraw = True
+122.0807 	EXP 	text_8: autoDraw = True
+126.0840 	EXP 	image_3: autoDraw = False
+126.0840 	EXP 	text_8: autoDraw = False
+126.0840 	EXP 	image_3: autoDraw = False
+126.0840 	EXP 	text_8: autoDraw = False
+126.0840 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+126.0840 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+126.0840 	EXP 	text_6: autoDraw = True
+126.0840 	EXP 	fingers: autoDraw = True
+132.0863 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+132.0876 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+132.0879 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+132.0881 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O31.jpg', 'Name': 'Filip', 'Proffession': 0, 'order_randomiser': 87}
+132.0968 	EXP 	text_6: autoDraw = False
+132.0968 	EXP 	fingers: autoDraw = False
+132.0968 	EXP 	polygon: autoDraw = True
+134.0989 	EXP 	polygon: autoDraw = False
+134.0989 	EXP 	polygon: autoDraw = False
+134.0989 	EXP 	image: image = 'Images_Faces/O31.jpg'
+134.0989 	EXP 	letters_text: height = 0.1
+134.0989 	EXP 	letters_text: height = 0.1
+134.0989 	EXP 	letters_text: height = 0.1
+134.0989 	EXP 	letters_text: text = 'N.\t\t\t\tÄ.\t\t\t\tF.\t\t\t\tNY'
+134.0989 	EXP 	image: autoDraw = True
+134.0989 	EXP 	letters_text: autoDraw = True
+135.8489 	DATA 	Keypress: 3
+138.0825 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O37.jpg', 'Name': 'Ulf', 'Proffession': 0, 'order_randomiser': 46}
+138.0977 	EXP 	image: autoDraw = False
+138.0977 	EXP 	letters_text: autoDraw = False
+138.0977 	EXP 	polygon: autoDraw = True
+140.0984 	EXP 	polygon: autoDraw = False
+140.0984 	EXP 	polygon: autoDraw = False
+140.0984 	EXP 	image: image = 'Images_Faces/O37.jpg'
+140.0984 	EXP 	letters_text: height = 0.1
+140.0984 	EXP 	letters_text: height = 0.1
+140.0984 	EXP 	letters_text: height = 0.1
+140.0984 	EXP 	letters_text: text = 'N.\t\t\t\tU.\t\t\t\tÅ.\t\t\t\tNY'
+140.0984 	EXP 	image: autoDraw = True
+140.0984 	EXP 	letters_text: autoDraw = True
+141.5151 	DATA 	Keypress: 2
+144.0825 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O48.jpg', 'Name': 'Bertil', 'Proffession': 0, 'order_randomiser': 42}
+144.0978 	EXP 	image: autoDraw = False
+144.0978 	EXP 	letters_text: autoDraw = False
+144.0978 	EXP 	image: autoDraw = False
+144.0978 	EXP 	letters_text: autoDraw = False
+144.0978 	EXP 	polygon: autoDraw = True
+146.0987 	EXP 	polygon: autoDraw = False
+146.0987 	EXP 	polygon: autoDraw = False
+146.0987 	EXP 	image: image = 'Images_Faces/O48.jpg'
+146.0987 	EXP 	letters_text: height = 0.1
+146.0987 	EXP 	letters_text: height = 0.1
+146.0987 	EXP 	letters_text: height = 0.1
+146.0987 	EXP 	letters_text: text = 'V.\t\t\t\tF.\t\t\t\tB.\t\t\t\tNY'
+146.0987 	EXP 	image: autoDraw = True
+146.0987 	EXP 	letters_text: autoDraw = True
+149.6152 	DATA 	Keypress: 1
+150.0974 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O44.jpg', 'Name': 'Viktor', 'Proffession': 0, 'order_randomiser': 4}
+150.1138 	EXP 	image: autoDraw = False
+150.1138 	EXP 	letters_text: autoDraw = False
+150.1138 	EXP 	polygon: autoDraw = True
+152.1178 	EXP 	polygon: autoDraw = False
+152.1178 	EXP 	polygon: autoDraw = False
+152.1178 	EXP 	image: image = 'Images_Faces/O44.jpg'
+152.1178 	EXP 	letters_text: height = 0.1
+152.1178 	EXP 	letters_text: height = 0.1
+152.1178 	EXP 	letters_text: height = 0.1
+152.1178 	EXP 	letters_text: text = 'C.\t\t\t\tS.\t\t\t\tV.\t\t\t\tNY'
+152.1178 	EXP 	image: autoDraw = True
+152.1178 	EXP 	letters_text: autoDraw = True
+155.5994 	DATA 	Keypress: 1
+156.1145 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O39.jpg', 'Name': 'Björn', 'Proffession': 0, 'order_randomiser': 23}
+156.1304 	EXP 	image: autoDraw = False
+156.1304 	EXP 	letters_text: autoDraw = False
+156.1304 	EXP 	polygon: autoDraw = True
+158.1365 	EXP 	polygon: autoDraw = False
+158.1365 	EXP 	polygon: autoDraw = False
+158.1365 	EXP 	image: image = 'Images_Faces/O39.jpg'
+158.1365 	EXP 	letters_text: height = 0.1
+158.1365 	EXP 	letters_text: height = 0.1
+158.1365 	EXP 	letters_text: height = 0.1
+158.1365 	EXP 	letters_text: text = 'S.\t\t\t\tB.\t\t\t\tA.\t\t\t\tNY'
+158.1365 	EXP 	image: autoDraw = True
+158.1365 	EXP 	letters_text: autoDraw = True
+159.3004 	DATA 	Keypress: 2
+162.1553 	EXP 	New trial (rep=2, index=0): None
+162.1581 	EXP 	image: autoDraw = False
+162.1581 	EXP 	letters_text: autoDraw = False
+162.1581 	EXP 	text_9: text = 'Memorera namn'
+162.1581 	EXP 	text_9: autoDraw = True
+166.1386 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+166.1399 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+166.1403 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+166.1404 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O57.jpg', 'Name': 'Joakim', 'Proffession': 0, 'order_randomiser': 56}
+166.1469 	EXP 	text_9: autoDraw = False
+166.1469 	EXP 	polygon: autoDraw = True
+168.1530 	EXP 	polygon: autoDraw = False
+168.1530 	EXP 	polygon: autoDraw = False
+168.1530 	EXP 	image_3: image = 'Images_Faces/O57.jpg'
+168.1530 	EXP 	text_8: height = 0.1
+168.1530 	EXP 	text_8: height = 0.1
+168.1530 	EXP 	text_8: height = 0.1
+168.1530 	EXP 	text_8: text = ''
+168.1530 	EXP 	text_8: height = 0.1
+168.1530 	EXP 	text_8: height = 0.1
+168.1530 	EXP 	text_8: height = 0.1
+168.1530 	EXP 	text_8: text = 'Joakim'
+168.1530 	EXP 	image_3: autoDraw = True
+168.1530 	EXP 	text_8: autoDraw = True
+172.1476 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O33.jpg', 'Name': 'Mattias', 'Proffession': 0, 'order_randomiser': 83}
+172.1636 	EXP 	image_3: autoDraw = False
+172.1636 	EXP 	text_8: autoDraw = False
+172.1636 	EXP 	polygon: autoDraw = True
+174.1650 	EXP 	polygon: autoDraw = False
+174.1650 	EXP 	polygon: autoDraw = False
+174.1650 	EXP 	image_3: image = 'Images_Faces/O33.jpg'
+174.1650 	EXP 	text_8: height = 0.1
+174.1650 	EXP 	text_8: height = 0.1
+174.1650 	EXP 	text_8: height = 0.1
+174.1650 	EXP 	text_8: text = ''
+174.1650 	EXP 	text_8: height = 0.1
+174.1650 	EXP 	text_8: height = 0.1
+174.1650 	EXP 	text_8: height = 0.1
+174.1650 	EXP 	text_8: text = 'Mattias'
+174.1650 	EXP 	image_3: autoDraw = True
+174.1650 	EXP 	text_8: autoDraw = True
+178.1489 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O32.jpg', 'Name': 'John', 'Proffession': 0, 'order_randomiser': 2}
+178.1643 	EXP 	image_3: autoDraw = False
+178.1643 	EXP 	text_8: autoDraw = False
+178.1643 	EXP 	image_3: autoDraw = False
+178.1643 	EXP 	text_8: autoDraw = False
+178.1643 	EXP 	polygon: autoDraw = True
+180.1749 	EXP 	polygon: autoDraw = False
+180.1749 	EXP 	polygon: autoDraw = False
+180.1749 	EXP 	image_3: image = 'Images_Faces/O32.jpg'
+180.1749 	EXP 	text_8: height = 0.1
+180.1749 	EXP 	text_8: height = 0.1
+180.1749 	EXP 	text_8: height = 0.1
+180.1749 	EXP 	text_8: text = ''
+180.1749 	EXP 	text_8: height = 0.1
+180.1749 	EXP 	text_8: height = 0.1
+180.1749 	EXP 	text_8: height = 0.1
+180.1749 	EXP 	text_8: text = 'John'
+180.1749 	EXP 	image_3: autoDraw = True
+180.1749 	EXP 	text_8: autoDraw = True
+184.1647 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O36.jpg', 'Name': 'Jonas', 'Proffession': 0, 'order_randomiser': 35}
+184.1808 	EXP 	image_3: autoDraw = False
+184.1808 	EXP 	text_8: autoDraw = False
+184.1808 	EXP 	polygon: autoDraw = True
+186.1817 	EXP 	polygon: autoDraw = False
+186.1817 	EXP 	polygon: autoDraw = False
+186.1817 	EXP 	image_3: image = 'Images_Faces/O36.jpg'
+186.1817 	EXP 	text_8: height = 0.1
+186.1817 	EXP 	text_8: height = 0.1
+186.1817 	EXP 	text_8: height = 0.1
+186.1817 	EXP 	text_8: text = ''
+186.1817 	EXP 	text_8: height = 0.1
+186.1817 	EXP 	text_8: height = 0.1
+186.1817 	EXP 	text_8: height = 0.1
+186.1817 	EXP 	text_8: text = 'Jonas'
+186.1817 	EXP 	image_3: autoDraw = True
+186.1817 	EXP 	text_8: autoDraw = True
+190.1655 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O54.jpg', 'Name': 'Rickard', 'Proffession': 0, 'order_randomiser': 38}
+190.1808 	EXP 	image_3: autoDraw = False
+190.1808 	EXP 	text_8: autoDraw = False
+190.1808 	EXP 	image_3: autoDraw = False
+190.1808 	EXP 	text_8: autoDraw = False
+190.1808 	EXP 	polygon: autoDraw = True
+192.1878 	EXP 	polygon: autoDraw = False
+192.1878 	EXP 	polygon: autoDraw = False
+192.1878 	EXP 	image_3: image = 'Images_Faces/O54.jpg'
+192.1878 	EXP 	text_8: height = 0.1
+192.1878 	EXP 	text_8: height = 0.1
+192.1878 	EXP 	text_8: height = 0.1
+192.1878 	EXP 	text_8: text = ''
+192.1878 	EXP 	text_8: height = 0.1
+192.1878 	EXP 	text_8: height = 0.1
+192.1878 	EXP 	text_8: height = 0.1
+192.1878 	EXP 	text_8: text = 'Rickard'
+192.1878 	EXP 	image_3: autoDraw = True
+192.1878 	EXP 	text_8: autoDraw = True
+196.2067 	EXP 	image_3: autoDraw = False
+196.2067 	EXP 	text_8: autoDraw = False
+196.2067 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+196.2067 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+196.2067 	EXP 	text_6: autoDraw = True
+196.2067 	EXP 	fingers: autoDraw = True
+202.1858 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+202.1874 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+202.1877 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+202.1879 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O54.jpg', 'Name': 'Rickard', 'Proffession': 0, 'order_randomiser': 38}
+202.1969 	EXP 	text_6: autoDraw = False
+202.1969 	EXP 	fingers: autoDraw = False
+202.1969 	EXP 	polygon: autoDraw = True
+204.2031 	EXP 	polygon: autoDraw = False
+204.2031 	EXP 	polygon: autoDraw = False
+204.2031 	EXP 	image: image = 'Images_Faces/O54.jpg'
+204.2031 	EXP 	letters_text: height = 0.1
+204.2031 	EXP 	letters_text: height = 0.1
+204.2031 	EXP 	letters_text: height = 0.1
+204.2031 	EXP 	letters_text: text = 'R.\t\t\t\tN.\t\t\t\tT.\t\t\t\tNY'
+204.2031 	EXP 	image: autoDraw = True
+204.2031 	EXP 	letters_text: autoDraw = True
+208.1977 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O32.jpg', 'Name': 'John', 'Proffession': 0, 'order_randomiser': 2}
+208.2136 	EXP 	image: autoDraw = False
+208.2136 	EXP 	letters_text: autoDraw = False
+208.2136 	EXP 	polygon: autoDraw = True
+210.2139 	EXP 	polygon: autoDraw = False
+210.2139 	EXP 	polygon: autoDraw = False
+210.2139 	EXP 	image: image = 'Images_Faces/O32.jpg'
+210.2139 	EXP 	letters_text: height = 0.1
+210.2139 	EXP 	letters_text: height = 0.1
+210.2139 	EXP 	letters_text: height = 0.1
+210.2139 	EXP 	letters_text: text = 'Ä.\t\t\t\tB.\t\t\t\tJ.\t\t\t\tNY'
+210.2139 	EXP 	image: autoDraw = True
+210.2139 	EXP 	letters_text: autoDraw = True
+214.1988 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O36.jpg', 'Name': 'Jonas', 'Proffession': 0, 'order_randomiser': 35}
+214.2141 	EXP 	image: autoDraw = False
+214.2141 	EXP 	letters_text: autoDraw = False
+214.2141 	EXP 	image: autoDraw = False
+214.2141 	EXP 	letters_text: autoDraw = False
+214.2141 	EXP 	polygon: autoDraw = True
+216.2169 	EXP 	polygon: autoDraw = False
+216.2169 	EXP 	polygon: autoDraw = False
+216.2169 	EXP 	image: image = 'Images_Faces/O36.jpg'
+216.2169 	EXP 	letters_text: height = 0.1
+216.2169 	EXP 	letters_text: height = 0.1
+216.2169 	EXP 	letters_text: height = 0.1
+216.2169 	EXP 	letters_text: text = 'A.\t\t\t\tJ.\t\t\t\tL.\t\t\t\tNY'
+216.2169 	EXP 	image: autoDraw = True
+216.2169 	EXP 	letters_text: autoDraw = True
+220.2152 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O57.jpg', 'Name': 'Joakim', 'Proffession': 0, 'order_randomiser': 56}
+220.2311 	EXP 	image: autoDraw = False
+220.2311 	EXP 	letters_text: autoDraw = False
+220.2311 	EXP 	polygon: autoDraw = True
+222.2329 	EXP 	polygon: autoDraw = False
+222.2329 	EXP 	polygon: autoDraw = False
+222.2329 	EXP 	image: image = 'Images_Faces/O57.jpg'
+222.2329 	EXP 	letters_text: height = 0.1
+222.2329 	EXP 	letters_text: height = 0.1
+222.2329 	EXP 	letters_text: height = 0.1
+222.2329 	EXP 	letters_text: text = 'J.\t\t\t\tF.\t\t\t\tD.\t\t\t\tNY'
+222.2329 	EXP 	image: autoDraw = True
+222.2329 	EXP 	letters_text: autoDraw = True
+226.2313 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O33.jpg', 'Name': 'Mattias', 'Proffession': 0, 'order_randomiser': 83}
+226.2474 	EXP 	image: autoDraw = False
+226.2474 	EXP 	letters_text: autoDraw = False
+226.2474 	EXP 	polygon: autoDraw = True
+228.2471 	EXP 	polygon: autoDraw = False
+228.2471 	EXP 	polygon: autoDraw = False
+228.2471 	EXP 	image: image = 'Images_Faces/O33.jpg'
+228.2471 	EXP 	letters_text: height = 0.1
+228.2471 	EXP 	letters_text: height = 0.1
+228.2471 	EXP 	letters_text: height = 0.1
+228.2471 	EXP 	letters_text: text = 'M.\t\t\t\tC.\t\t\t\tV.\t\t\t\tNY'
+228.2471 	EXP 	image: autoDraw = True
+228.2471 	EXP 	letters_text: autoDraw = True
+232.2593 	EXP 	New trial (rep=3, index=0): None
+232.2622 	EXP 	image: autoDraw = False
+232.2622 	EXP 	letters_text: autoDraw = False
+232.2622 	EXP 	image: autoDraw = False
+232.2622 	EXP 	letters_text: autoDraw = False
+232.2622 	EXP 	text_9: text = 'Memorera namn'
+232.2622 	EXP 	text_9: autoDraw = True
+236.2540 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+236.2554 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+236.2557 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+236.2558 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O58.jpg', 'Name': 'Stig', 'Proffession': 0, 'order_randomiser': 30}
+236.2636 	EXP 	text_9: autoDraw = False
+236.2636 	EXP 	polygon: autoDraw = True
+238.2687 	EXP 	polygon: autoDraw = False
+238.2687 	EXP 	polygon: autoDraw = False
+238.2687 	EXP 	image_3: image = 'Images_Faces/O58.jpg'
+238.2687 	EXP 	text_8: height = 0.1
+238.2687 	EXP 	text_8: height = 0.1
+238.2687 	EXP 	text_8: height = 0.1
+238.2687 	EXP 	text_8: text = ''
+238.2687 	EXP 	text_8: height = 0.1
+238.2687 	EXP 	text_8: height = 0.1
+238.2687 	EXP 	text_8: height = 0.1
+238.2687 	EXP 	text_8: text = 'Stig'
+238.2687 	EXP 	image_3: autoDraw = True
+238.2687 	EXP 	text_8: autoDraw = True
+242.2642 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O52.jpg', 'Name': 'Håkan', 'Proffession': 0, 'order_randomiser': 38}
+242.2807 	EXP 	image_3: autoDraw = False
+242.2807 	EXP 	text_8: autoDraw = False
+242.2807 	EXP 	polygon: autoDraw = True
+244.2852 	EXP 	polygon: autoDraw = False
+244.2852 	EXP 	polygon: autoDraw = False
+244.2852 	EXP 	image_3: image = 'Images_Faces/O52.jpg'
+244.2852 	EXP 	text_8: height = 0.1
+244.2852 	EXP 	text_8: height = 0.1
+244.2852 	EXP 	text_8: height = 0.1
+244.2852 	EXP 	text_8: text = ''
+244.2852 	EXP 	text_8: height = 0.1
+244.2852 	EXP 	text_8: height = 0.1
+244.2852 	EXP 	text_8: height = 0.1
+244.2852 	EXP 	text_8: text = 'Håkan'
+244.2852 	EXP 	image_3: autoDraw = True
+244.2852 	EXP 	text_8: autoDraw = True
+248.2807 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O46.jpg', 'Name': 'Emil', 'Proffession': 0, 'order_randomiser': 100}
+248.2971 	EXP 	image_3: autoDraw = False
+248.2971 	EXP 	text_8: autoDraw = False
+248.2971 	EXP 	polygon: autoDraw = True
+250.3049 	EXP 	polygon: autoDraw = False
+250.3049 	EXP 	polygon: autoDraw = False
+250.3049 	EXP 	image_3: image = 'Images_Faces/O46.jpg'
+250.3049 	EXP 	text_8: height = 0.1
+250.3049 	EXP 	text_8: height = 0.1
+250.3049 	EXP 	text_8: height = 0.1
+250.3049 	EXP 	text_8: text = ''
+250.3049 	EXP 	text_8: height = 0.1
+250.3049 	EXP 	text_8: height = 0.1
+250.3049 	EXP 	text_8: height = 0.1
+250.3049 	EXP 	text_8: text = 'Emil'
+250.3049 	EXP 	image_3: autoDraw = True
+250.3049 	EXP 	text_8: autoDraw = True
+254.2985 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O50.jpg', 'Name': 'Patrik', 'Proffession': 0, 'order_randomiser': 98}
+254.3145 	EXP 	image_3: autoDraw = False
+254.3145 	EXP 	text_8: autoDraw = False
+254.3145 	EXP 	polygon: autoDraw = True
+256.3393 	EXP 	polygon: autoDraw = False
+256.3393 	EXP 	polygon: autoDraw = False
+256.3393 	EXP 	image_3: image = 'Images_Faces/O50.jpg'
+256.3393 	EXP 	text_8: height = 0.1
+256.3393 	EXP 	text_8: height = 0.1
+256.3393 	EXP 	text_8: height = 0.1
+256.3393 	EXP 	text_8: text = ''
+256.3393 	EXP 	text_8: height = 0.1
+256.3393 	EXP 	text_8: height = 0.1
+256.3393 	EXP 	text_8: height = 0.1
+256.3393 	EXP 	text_8: text = 'Patrik'
+256.3393 	EXP 	image_3: autoDraw = True
+256.3393 	EXP 	text_8: autoDraw = True
+260.3143 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O41.jpg', 'Name': 'Christian', 'Proffession': 0, 'order_randomiser': 67}
+260.3305 	EXP 	image_3: autoDraw = False
+260.3305 	EXP 	text_8: autoDraw = False
+260.3305 	EXP 	polygon: autoDraw = True
+262.3387 	EXP 	polygon: autoDraw = False
+262.3387 	EXP 	polygon: autoDraw = False
+262.3387 	EXP 	image_3: image = 'Images_Faces/O41.jpg'
+262.3387 	EXP 	text_8: height = 0.1
+262.3387 	EXP 	text_8: height = 0.1
+262.3387 	EXP 	text_8: height = 0.1
+262.3387 	EXP 	text_8: text = ''
+262.3387 	EXP 	text_8: height = 0.1
+262.3387 	EXP 	text_8: height = 0.1
+262.3387 	EXP 	text_8: height = 0.1
+262.3387 	EXP 	text_8: text = 'Christian'
+262.3387 	EXP 	image_3: autoDraw = True
+262.3387 	EXP 	text_8: autoDraw = True
+266.3612 	EXP 	image_3: autoDraw = False
+266.3612 	EXP 	text_8: autoDraw = False
+266.3612 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+266.3612 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+266.3612 	EXP 	text_6: autoDraw = True
+266.3612 	EXP 	fingers: autoDraw = True
+272.3352 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+272.3365 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+272.3368 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+272.3370 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O50.jpg', 'Name': 'Patrik', 'Proffession': 0, 'order_randomiser': 98}
+272.3470 	EXP 	text_6: autoDraw = False
+272.3470 	EXP 	fingers: autoDraw = False
+272.3470 	EXP 	polygon: autoDraw = True
+274.3534 	EXP 	polygon: autoDraw = False
+274.3534 	EXP 	polygon: autoDraw = False
+274.3534 	EXP 	image: image = 'Images_Faces/O50.jpg'
+274.3534 	EXP 	letters_text: height = 0.1
+274.3534 	EXP 	letters_text: height = 0.1
+274.3534 	EXP 	letters_text: height = 0.1
+274.3534 	EXP 	letters_text: text = 'Å.\t\t\t\tP.\t\t\t\tF.\t\t\t\tNY'
+274.3534 	EXP 	image: autoDraw = True
+274.3534 	EXP 	letters_text: autoDraw = True
+278.3484 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O46.jpg', 'Name': 'Emil', 'Proffession': 0, 'order_randomiser': 100}
+278.3638 	EXP 	image: autoDraw = False
+278.3638 	EXP 	letters_text: autoDraw = False
+278.3638 	EXP 	polygon: autoDraw = True
+280.3638 	EXP 	polygon: autoDraw = False
+280.3638 	EXP 	polygon: autoDraw = False
+280.3638 	EXP 	image: image = 'Images_Faces/O46.jpg'
+280.3638 	EXP 	letters_text: height = 0.1
+280.3638 	EXP 	letters_text: height = 0.1
+280.3638 	EXP 	letters_text: height = 0.1
+280.3638 	EXP 	letters_text: text = 'F.\t\t\t\tE.\t\t\t\tA.\t\t\t\tNY'
+280.3638 	EXP 	image: autoDraw = True
+280.3638 	EXP 	letters_text: autoDraw = True
+283.5995 	DATA 	Keypress: 2
+284.3478 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O58.jpg', 'Name': 'Stig', 'Proffession': 0, 'order_randomiser': 30}
+284.3638 	EXP 	image: autoDraw = False
+284.3638 	EXP 	letters_text: autoDraw = False
+284.3638 	EXP 	image: autoDraw = False
+284.3638 	EXP 	letters_text: autoDraw = False
+284.3638 	EXP 	polygon: autoDraw = True
+286.3702 	EXP 	polygon: autoDraw = False
+286.3702 	EXP 	polygon: autoDraw = False
+286.3702 	EXP 	image: image = 'Images_Faces/O58.jpg'
+286.3702 	EXP 	letters_text: height = 0.1
+286.3702 	EXP 	letters_text: height = 0.1
+286.3702 	EXP 	letters_text: height = 0.1
+286.3702 	EXP 	letters_text: text = 'S.\t\t\t\tG.\t\t\t\tL.\t\t\t\tNY'
+286.3702 	EXP 	image: autoDraw = True
+286.3702 	EXP 	letters_text: autoDraw = True
+290.3649 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O41.jpg', 'Name': 'Christian', 'Proffession': 0, 'order_randomiser': 67}
+290.3807 	EXP 	image: autoDraw = False
+290.3807 	EXP 	letters_text: autoDraw = False
+290.3807 	EXP 	polygon: autoDraw = True
+292.3802 	EXP 	polygon: autoDraw = False
+292.3802 	EXP 	polygon: autoDraw = False
+292.3802 	EXP 	image: image = 'Images_Faces/O41.jpg'
+292.3802 	EXP 	letters_text: height = 0.1
+292.3802 	EXP 	letters_text: height = 0.1
+292.3802 	EXP 	letters_text: height = 0.1
+292.3802 	EXP 	letters_text: text = 'C.\t\t\t\tJ.\t\t\t\tE.\t\t\t\tNY'
+292.3802 	EXP 	image: autoDraw = True
+292.3802 	EXP 	letters_text: autoDraw = True
+296.3659 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O52.jpg', 'Name': 'Håkan', 'Proffession': 0, 'order_randomiser': 38}
+296.3808 	EXP 	image: autoDraw = False
+296.3808 	EXP 	letters_text: autoDraw = False
+296.3808 	EXP 	image: autoDraw = False
+296.3808 	EXP 	letters_text: autoDraw = False
+296.3808 	EXP 	polygon: autoDraw = True
+298.3833 	EXP 	polygon: autoDraw = False
+298.3833 	EXP 	polygon: autoDraw = False
+298.3833 	EXP 	image: image = 'Images_Faces/O52.jpg'
+298.3833 	EXP 	letters_text: height = 0.1
+298.3833 	EXP 	letters_text: height = 0.1
+298.3833 	EXP 	letters_text: height = 0.1
+298.3833 	EXP 	letters_text: text = 'H.\t\t\t\tP.\t\t\t\tÄ.\t\t\t\tNY'
+298.3833 	EXP 	image: autoDraw = True
+298.3833 	EXP 	letters_text: autoDraw = True
+302.4149 	EXP 	New trial (rep=4, index=0): None
+302.4178 	EXP 	image: autoDraw = False
+302.4178 	EXP 	letters_text: autoDraw = False
+302.4178 	EXP 	text_9: text = 'Memorera namn'
+302.4178 	EXP 	text_9: autoDraw = True
+306.3847 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+306.3863 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+306.3866 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+306.3868 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O51.jpg', 'Name': 'Ingemar', 'Proffession': 0, 'order_randomiser': 10}
+306.3972 	EXP 	text_9: autoDraw = False
+306.3972 	EXP 	polygon: autoDraw = True
+308.4039 	EXP 	polygon: autoDraw = False
+308.4039 	EXP 	polygon: autoDraw = False
+308.4039 	EXP 	image_3: image = 'Images_Faces/O51.jpg'
+308.4039 	EXP 	text_8: height = 0.1
+308.4039 	EXP 	text_8: height = 0.1
+308.4039 	EXP 	text_8: height = 0.1
+308.4039 	EXP 	text_8: text = ''
+308.4039 	EXP 	text_8: height = 0.1
+308.4039 	EXP 	text_8: height = 0.1
+308.4039 	EXP 	text_8: height = 0.1
+308.4039 	EXP 	text_8: text = 'Ingemar'
+308.4039 	EXP 	image_3: autoDraw = True
+308.4039 	EXP 	text_8: autoDraw = True
+312.3971 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O47.jpg', 'Name': 'Niklas', 'Proffession': 0, 'order_randomiser': 42}
+312.4137 	EXP 	image_3: autoDraw = False
+312.4137 	EXP 	text_8: autoDraw = False
+312.4137 	EXP 	polygon: autoDraw = True
+314.4234 	EXP 	polygon: autoDraw = False
+314.4234 	EXP 	polygon: autoDraw = False
+314.4234 	EXP 	image_3: image = 'Images_Faces/O47.jpg'
+314.4234 	EXP 	text_8: height = 0.1
+314.4234 	EXP 	text_8: height = 0.1
+314.4234 	EXP 	text_8: height = 0.1
+314.4234 	EXP 	text_8: text = ''
+314.4234 	EXP 	text_8: height = 0.1
+314.4234 	EXP 	text_8: height = 0.1
+314.4234 	EXP 	text_8: height = 0.1
+314.4234 	EXP 	text_8: text = 'Niklas'
+314.4234 	EXP 	image_3: autoDraw = True
+314.4234 	EXP 	text_8: autoDraw = True
+318.4147 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O34.jpg', 'Name': 'Mats', 'Proffession': 0, 'order_randomiser': 26}
+318.4310 	EXP 	image_3: autoDraw = False
+318.4310 	EXP 	text_8: autoDraw = False
+318.4310 	EXP 	polygon: autoDraw = True
+320.4327 	EXP 	polygon: autoDraw = False
+320.4327 	EXP 	polygon: autoDraw = False
+320.4327 	EXP 	image_3: image = 'Images_Faces/O34.jpg'
+320.4327 	EXP 	text_8: height = 0.1
+320.4327 	EXP 	text_8: height = 0.1
+320.4327 	EXP 	text_8: height = 0.1
+320.4327 	EXP 	text_8: text = ''
+320.4327 	EXP 	text_8: height = 0.1
+320.4327 	EXP 	text_8: height = 0.1
+320.4327 	EXP 	text_8: height = 0.1
+320.4327 	EXP 	text_8: text = 'Mats'
+320.4327 	EXP 	image_3: autoDraw = True
+320.4327 	EXP 	text_8: autoDraw = True
+324.4306 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O40.jpg', 'Name': 'Axel', 'Proffession': 0, 'order_randomiser': 39}
+324.4469 	EXP 	image_3: autoDraw = False
+324.4469 	EXP 	text_8: autoDraw = False
+324.4469 	EXP 	polygon: autoDraw = True
+326.4498 	EXP 	polygon: autoDraw = False
+326.4498 	EXP 	polygon: autoDraw = False
+326.4498 	EXP 	image_3: image = 'Images_Faces/O40.jpg'
+326.4498 	EXP 	text_8: height = 0.1
+326.4498 	EXP 	text_8: height = 0.1
+326.4498 	EXP 	text_8: height = 0.1
+326.4498 	EXP 	text_8: text = ''
+326.4498 	EXP 	text_8: height = 0.1
+326.4498 	EXP 	text_8: height = 0.1
+326.4498 	EXP 	text_8: height = 0.1
+326.4498 	EXP 	text_8: text = 'Axel'
+326.4498 	EXP 	image_3: autoDraw = True
+326.4498 	EXP 	text_8: autoDraw = True
+330.4315 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O43.jpg', 'Name': 'David', 'Proffession': 0, 'order_randomiser': 85}
+330.4475 	EXP 	image_3: autoDraw = False
+330.4475 	EXP 	text_8: autoDraw = False
+330.4475 	EXP 	polygon: autoDraw = True
+332.4522 	EXP 	polygon: autoDraw = False
+332.4522 	EXP 	polygon: autoDraw = False
+332.4522 	EXP 	image_3: image = 'Images_Faces/O43.jpg'
+332.4522 	EXP 	text_8: height = 0.1
+332.4522 	EXP 	text_8: height = 0.1
+332.4522 	EXP 	text_8: height = 0.1
+332.4522 	EXP 	text_8: text = ''
+332.4522 	EXP 	text_8: height = 0.1
+332.4522 	EXP 	text_8: height = 0.1
+332.4522 	EXP 	text_8: height = 0.1
+332.4522 	EXP 	text_8: text = 'David'
+332.4522 	EXP 	image_3: autoDraw = True
+332.4522 	EXP 	text_8: autoDraw = True
+336.4894 	EXP 	image_3: autoDraw = False
+336.4894 	EXP 	text_8: autoDraw = False
+336.4894 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+336.4894 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+336.4894 	EXP 	text_6: autoDraw = True
+336.4894 	EXP 	fingers: autoDraw = True
+342.4530 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+342.4544 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+342.4547 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+342.4549 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O47.jpg', 'Name': 'Niklas', 'Proffession': 0, 'order_randomiser': 42}
+342.4632 	EXP 	text_6: autoDraw = False
+342.4632 	EXP 	fingers: autoDraw = False
+342.4632 	EXP 	polygon: autoDraw = True
+344.4668 	EXP 	polygon: autoDraw = False
+344.4668 	EXP 	polygon: autoDraw = False
+344.4668 	EXP 	image: image = 'Images_Faces/O47.jpg'
+344.4668 	EXP 	letters_text: height = 0.1
+344.4668 	EXP 	letters_text: height = 0.1
+344.4668 	EXP 	letters_text: height = 0.1
+344.4668 	EXP 	letters_text: text = 'E.\t\t\t\tN.\t\t\t\tA.\t\t\t\tNY'
+344.4668 	EXP 	image: autoDraw = True
+344.4668 	EXP 	letters_text: autoDraw = True
+348.4650 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O34.jpg', 'Name': 'Mats', 'Proffession': 0, 'order_randomiser': 26}
+348.4809 	EXP 	image: autoDraw = False
+348.4809 	EXP 	letters_text: autoDraw = False
+348.4809 	EXP 	polygon: autoDraw = True
+350.4827 	EXP 	polygon: autoDraw = False
+350.4827 	EXP 	polygon: autoDraw = False
+350.4827 	EXP 	image: image = 'Images_Faces/O34.jpg'
+350.4827 	EXP 	letters_text: height = 0.1
+350.4827 	EXP 	letters_text: height = 0.1
+350.4827 	EXP 	letters_text: height = 0.1
+350.4827 	EXP 	letters_text: text = 'M.\t\t\t\tF.\t\t\t\tT.\t\t\t\tNY'
+350.4827 	EXP 	image: autoDraw = True
+350.4827 	EXP 	letters_text: autoDraw = True
+354.4806 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O51.jpg', 'Name': 'Ingemar', 'Proffession': 0, 'order_randomiser': 10}
+354.4968 	EXP 	image: autoDraw = False
+354.4968 	EXP 	letters_text: autoDraw = False
+354.4968 	EXP 	polygon: autoDraw = True
+356.4992 	EXP 	polygon: autoDraw = False
+356.4992 	EXP 	polygon: autoDraw = False
+356.4992 	EXP 	image: image = 'Images_Faces/O51.jpg'
+356.4992 	EXP 	letters_text: height = 0.1
+356.4992 	EXP 	letters_text: height = 0.1
+356.4992 	EXP 	letters_text: height = 0.1
+356.4992 	EXP 	letters_text: text = 'N.\t\t\t\tI.\t\t\t\tO.\t\t\t\tNY'
+356.4992 	EXP 	image: autoDraw = True
+356.4992 	EXP 	letters_text: autoDraw = True
+360.4817 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O40.jpg', 'Name': 'Axel', 'Proffession': 0, 'order_randomiser': 39}
+360.4976 	EXP 	image: autoDraw = False
+360.4976 	EXP 	letters_text: autoDraw = False
+360.4976 	EXP 	polygon: autoDraw = True
+362.4978 	EXP 	polygon: autoDraw = False
+362.4978 	EXP 	polygon: autoDraw = False
+362.4978 	EXP 	image: image = 'Images_Faces/O40.jpg'
+362.4978 	EXP 	letters_text: height = 0.1
+362.4978 	EXP 	letters_text: height = 0.1
+362.4978 	EXP 	letters_text: height = 0.1
+362.4978 	EXP 	letters_text: text = 'H.\t\t\t\tA.\t\t\t\tB.\t\t\t\tNY'
+362.4978 	EXP 	image: autoDraw = True
+362.4978 	EXP 	letters_text: autoDraw = True
+366.4818 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O43.jpg', 'Name': 'David', 'Proffession': 0, 'order_randomiser': 85}
+366.4973 	EXP 	image: autoDraw = False
+366.4973 	EXP 	letters_text: autoDraw = False
+366.4973 	EXP 	polygon: autoDraw = True
+368.4972 	EXP 	polygon: autoDraw = False
+368.4972 	EXP 	polygon: autoDraw = False
+368.4972 	EXP 	image: image = 'Images_Faces/O43.jpg'
+368.4972 	EXP 	letters_text: height = 0.1
+368.4972 	EXP 	letters_text: height = 0.1
+368.4972 	EXP 	letters_text: height = 0.1
+368.4972 	EXP 	letters_text: text = 'H.\t\t\t\tÄ.\t\t\t\tD.\t\t\t\tNY'
+368.4972 	EXP 	image: autoDraw = True
+368.4972 	EXP 	letters_text: autoDraw = True
+372.5203 	EXP 	New trial (rep=5, index=0): None
+372.5231 	EXP 	image: autoDraw = False
+372.5231 	EXP 	letters_text: autoDraw = False
+372.5231 	EXP 	image: autoDraw = False
+372.5231 	EXP 	letters_text: autoDraw = False
+372.5231 	EXP 	text_9: text = 'Memorera namn'
+372.5231 	EXP 	text_9: autoDraw = True
+376.5040 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+376.5053 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+376.5057 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+376.5058 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O38.jpg', 'Name': 'Leif', 'Proffession': 0, 'order_randomiser': 53}
+376.5133 	EXP 	text_9: autoDraw = False
+376.5133 	EXP 	polygon: autoDraw = True
+378.5135 	EXP 	polygon: autoDraw = False
+378.5135 	EXP 	polygon: autoDraw = False
+378.5135 	EXP 	image_3: image = 'Images_Faces/O38.jpg'
+378.5135 	EXP 	text_8: height = 0.1
+378.5135 	EXP 	text_8: height = 0.1
+378.5135 	EXP 	text_8: height = 0.1
+378.5135 	EXP 	text_8: text = ''
+378.5135 	EXP 	text_8: height = 0.1
+378.5135 	EXP 	text_8: height = 0.1
+378.5135 	EXP 	text_8: height = 0.1
+378.5135 	EXP 	text_8: text = 'Leif'
+378.5135 	EXP 	image_3: autoDraw = True
+378.5135 	EXP 	text_8: autoDraw = True
+382.4974 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O59.jpg', 'Name': 'Rolf', 'Proffession': 0, 'order_randomiser': 3}
+382.5137 	EXP 	image_3: autoDraw = False
+382.5137 	EXP 	text_8: autoDraw = False
+382.5137 	EXP 	image_3: autoDraw = False
+382.5137 	EXP 	text_8: autoDraw = False
+382.5137 	EXP 	polygon: autoDraw = True
+384.5154 	EXP 	polygon: autoDraw = False
+384.5154 	EXP 	polygon: autoDraw = False
+384.5154 	EXP 	image_3: image = 'Images_Faces/O59.jpg'
+384.5154 	EXP 	text_8: height = 0.1
+384.5154 	EXP 	text_8: height = 0.1
+384.5154 	EXP 	text_8: height = 0.1
+384.5154 	EXP 	text_8: text = ''
+384.5154 	EXP 	text_8: height = 0.1
+384.5154 	EXP 	text_8: height = 0.1
+384.5154 	EXP 	text_8: height = 0.1
+384.5154 	EXP 	text_8: text = 'Rolf'
+384.5154 	EXP 	image_3: autoDraw = True
+384.5154 	EXP 	text_8: autoDraw = True
+388.5144 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O60.jpg', 'Name': 'Wilhelm', 'Proffession': 0, 'order_randomiser': 7}
+388.5307 	EXP 	image_3: autoDraw = False
+388.5307 	EXP 	text_8: autoDraw = False
+388.5307 	EXP 	polygon: autoDraw = True
+390.5413 	EXP 	polygon: autoDraw = False
+390.5413 	EXP 	polygon: autoDraw = False
+390.5413 	EXP 	image_3: image = 'Images_Faces/O60.jpg'
+390.5413 	EXP 	text_8: height = 0.1
+390.5413 	EXP 	text_8: height = 0.1
+390.5413 	EXP 	text_8: height = 0.1
+390.5413 	EXP 	text_8: text = ''
+390.5413 	EXP 	text_8: height = 0.1
+390.5413 	EXP 	text_8: height = 0.1
+390.5413 	EXP 	text_8: height = 0.1
+390.5413 	EXP 	text_8: text = 'Wilhelm'
+390.5413 	EXP 	image_3: autoDraw = True
+390.5413 	EXP 	text_8: autoDraw = True
+394.5313 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O42.jpg', 'Name': 'Robert', 'Proffession': 0, 'order_randomiser': 73}
+394.5474 	EXP 	image_3: autoDraw = False
+394.5474 	EXP 	text_8: autoDraw = False
+394.5474 	EXP 	polygon: autoDraw = True
+396.5535 	EXP 	polygon: autoDraw = False
+396.5535 	EXP 	polygon: autoDraw = False
+396.5535 	EXP 	image_3: image = 'Images_Faces/O42.jpg'
+396.5535 	EXP 	text_8: height = 0.1
+396.5535 	EXP 	text_8: height = 0.1
+396.5535 	EXP 	text_8: height = 0.1
+396.5535 	EXP 	text_8: text = ''
+396.5535 	EXP 	text_8: height = 0.1
+396.5535 	EXP 	text_8: height = 0.1
+396.5535 	EXP 	text_8: height = 0.1
+396.5535 	EXP 	text_8: text = 'Robert'
+396.5535 	EXP 	image_3: autoDraw = True
+396.5535 	EXP 	text_8: autoDraw = True
+400.5479 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O45.jpg', 'Name': 'Marcus', 'Proffession': 0, 'order_randomiser': 53}
+400.5637 	EXP 	image_3: autoDraw = False
+400.5637 	EXP 	text_8: autoDraw = False
+400.5637 	EXP 	polygon: autoDraw = True
+402.5671 	EXP 	polygon: autoDraw = False
+402.5671 	EXP 	polygon: autoDraw = False
+402.5671 	EXP 	image_3: image = 'Images_Faces/O45.jpg'
+402.5671 	EXP 	text_8: height = 0.1
+402.5671 	EXP 	text_8: height = 0.1
+402.5671 	EXP 	text_8: height = 0.1
+402.5671 	EXP 	text_8: text = ''
+402.5671 	EXP 	text_8: height = 0.1
+402.5671 	EXP 	text_8: height = 0.1
+402.5671 	EXP 	text_8: height = 0.1
+402.5671 	EXP 	text_8: text = 'Marcus'
+402.5671 	EXP 	image_3: autoDraw = True
+402.5671 	EXP 	text_8: autoDraw = True
+406.6085 	EXP 	image_3: autoDraw = False
+406.6085 	EXP 	text_8: autoDraw = False
+406.6085 	EXP 	text_6: text = 'Välj första bokstaven i personens namn'
+406.6085 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+406.6085 	EXP 	text_6: autoDraw = True
+406.6085 	EXP 	fingers: autoDraw = True
+412.5678 	DEBUG 	Read excel file with openpyxl: Names_condition.xlsx
+412.5691 	EXP 	Imported Names_condition.xlsx as conditions, 5 conditions, 4 params
+412.5694 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+412.5696 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/O60.jpg', 'Name': 'Wilhelm', 'Proffession': 0, 'order_randomiser': 7}
+412.5801 	EXP 	text_6: autoDraw = False
+412.5801 	EXP 	fingers: autoDraw = False
+412.5801 	EXP 	polygon: autoDraw = True
+414.5838 	EXP 	polygon: autoDraw = False
+414.5838 	EXP 	polygon: autoDraw = False
+414.5838 	EXP 	image: image = 'Images_Faces/O60.jpg'
+414.5838 	EXP 	letters_text: height = 0.1
+414.5838 	EXP 	letters_text: height = 0.1
+414.5838 	EXP 	letters_text: height = 0.1
+414.5838 	EXP 	letters_text: text = 'Ä.\t\t\t\tF.\t\t\t\tW.\t\t\t\tNY'
+414.5838 	EXP 	image: autoDraw = True
+414.5838 	EXP 	letters_text: autoDraw = True
+418.5812 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/O38.jpg', 'Name': 'Leif', 'Proffession': 0, 'order_randomiser': 53}
+418.5971 	EXP 	image: autoDraw = False
+418.5971 	EXP 	letters_text: autoDraw = False
+418.5971 	EXP 	polygon: autoDraw = True
+420.6009 	EXP 	polygon: autoDraw = False
+420.6009 	EXP 	polygon: autoDraw = False
+420.6009 	EXP 	image: image = 'Images_Faces/O38.jpg'
+420.6009 	EXP 	letters_text: height = 0.1
+420.6009 	EXP 	letters_text: height = 0.1
+420.6009 	EXP 	letters_text: height = 0.1
+420.6009 	EXP 	letters_text: text = 'P.\t\t\t\tL.\t\t\t\tB.\t\t\t\tNY'
+420.6009 	EXP 	image: autoDraw = True
+420.6009 	EXP 	letters_text: autoDraw = True
+424.5974 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/O42.jpg', 'Name': 'Robert', 'Proffession': 0, 'order_randomiser': 73}
+424.6138 	EXP 	image: autoDraw = False
+424.6138 	EXP 	letters_text: autoDraw = False
+424.6138 	EXP 	polygon: autoDraw = True
+426.6154 	EXP 	polygon: autoDraw = False
+426.6154 	EXP 	polygon: autoDraw = False
+426.6154 	EXP 	image: image = 'Images_Faces/O42.jpg'
+426.6154 	EXP 	letters_text: height = 0.1
+426.6154 	EXP 	letters_text: height = 0.1
+426.6154 	EXP 	letters_text: height = 0.1
+426.6154 	EXP 	letters_text: text = 'R.\t\t\t\tÄ.\t\t\t\tK.\t\t\t\tNY'
+426.6154 	EXP 	image: autoDraw = True
+426.6154 	EXP 	letters_text: autoDraw = True
+430.6148 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/O59.jpg', 'Name': 'Rolf', 'Proffession': 0, 'order_randomiser': 3}
+430.6310 	EXP 	image: autoDraw = False
+430.6310 	EXP 	letters_text: autoDraw = False
+430.6310 	EXP 	polygon: autoDraw = True
+432.6315 	EXP 	polygon: autoDraw = False
+432.6315 	EXP 	polygon: autoDraw = False
+432.6315 	EXP 	image: image = 'Images_Faces/O59.jpg'
+432.6315 	EXP 	letters_text: height = 0.1
+432.6315 	EXP 	letters_text: height = 0.1
+432.6315 	EXP 	letters_text: height = 0.1
+432.6315 	EXP 	letters_text: text = 'J.\t\t\t\tD.\t\t\t\tR.\t\t\t\tNY'
+432.6315 	EXP 	image: autoDraw = True
+432.6315 	EXP 	letters_text: autoDraw = True
+436.6153 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/O45.jpg', 'Name': 'Marcus', 'Proffession': 0, 'order_randomiser': 53}
+436.6306 	EXP 	image: autoDraw = False
+436.6306 	EXP 	letters_text: autoDraw = False
+436.6306 	EXP 	image: autoDraw = False
+436.6306 	EXP 	letters_text: autoDraw = False
+436.6306 	EXP 	polygon: autoDraw = True
+438.6306 	EXP 	polygon: autoDraw = False
+438.6306 	EXP 	polygon: autoDraw = False
+438.6306 	EXP 	image: image = 'Images_Faces/O45.jpg'
+438.6306 	EXP 	letters_text: height = 0.1
+438.6306 	EXP 	letters_text: height = 0.1
+438.6306 	EXP 	letters_text: height = 0.1
+438.6306 	EXP 	letters_text: text = 'M.\t\t\t\tN.\t\t\t\tV.\t\t\t\tNY'
+438.6306 	EXP 	image: autoDraw = True
+438.6306 	EXP 	letters_text: autoDraw = True
+442.6644 	EXP 	image: autoDraw = False
+442.6644 	EXP 	letters_text: autoDraw = False
+442.6644 	EXP 	image: autoDraw = False
+442.6644 	EXP 	letters_text: autoDraw = False
+442.6644 	EXP 	instructions: autoDraw = True
+447.6147 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+447.6149 	EXP 	New trial (rep=0, index=0): None
+447.6302 	EXP 	instructions: autoDraw = False
+447.6302 	EXP 	text_9: height = 0.1
+447.6302 	EXP 	text_9: height = 0.1
+447.6302 	EXP 	text_9: height = 0.1
+447.6302 	EXP 	text_9: text = 'Memorera yrkestitel'
+447.6302 	EXP 	text_9: autoDraw = True
+451.6193 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+451.6204 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+451.6207 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+451.6209 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker'}
+451.6299 	EXP 	text_9: autoDraw = False
+451.6299 	EXP 	text_9: autoDraw = False
+451.6299 	EXP 	polygon: autoDraw = True
+453.6394 	EXP 	polygon: autoDraw = False
+453.6394 	EXP 	polygon: autoDraw = False
+453.6394 	EXP 	image_3: image = 'Images_Faces/SH33.png'
+453.6394 	EXP 	text_8: height = 0.1
+453.6394 	EXP 	text_8: height = 0.1
+453.6394 	EXP 	text_8: height = 0.1
+453.6394 	EXP 	text_8: text = ''
+453.6394 	EXP 	text_8: height = 0.1
+453.6394 	EXP 	text_8: height = 0.1
+453.6394 	EXP 	text_8: height = 0.1
+453.6394 	EXP 	text_8: text = 'Elektriker'
+453.6394 	EXP 	image_3: autoDraw = True
+453.6394 	EXP 	text_8: autoDraw = True
+457.6305 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock'}
+457.6468 	EXP 	image_3: autoDraw = False
+457.6468 	EXP 	text_8: autoDraw = False
+457.6468 	EXP 	polygon: autoDraw = True
+459.6531 	EXP 	polygon: autoDraw = False
+459.6531 	EXP 	polygon: autoDraw = False
+459.6531 	EXP 	image_3: image = 'Images_Faces/SH35.png'
+459.6531 	EXP 	text_8: height = 0.1
+459.6531 	EXP 	text_8: height = 0.1
+459.6531 	EXP 	text_8: height = 0.1
+459.6531 	EXP 	text_8: text = ''
+459.6531 	EXP 	text_8: height = 0.1
+459.6531 	EXP 	text_8: height = 0.1
+459.6531 	EXP 	text_8: height = 0.1
+459.6531 	EXP 	text_8: text = 'Kock'
+459.6531 	EXP 	image_3: autoDraw = True
+459.6531 	EXP 	text_8: autoDraw = True
+463.6310 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare'}
+463.6468 	EXP 	image_3: autoDraw = False
+463.6468 	EXP 	text_8: autoDraw = False
+463.6468 	EXP 	polygon: autoDraw = True
+465.6562 	EXP 	polygon: autoDraw = False
+465.6562 	EXP 	polygon: autoDraw = False
+465.6562 	EXP 	image_3: image = 'Images_Faces/SH31.png'
+465.6562 	EXP 	text_8: height = 0.1
+465.6562 	EXP 	text_8: height = 0.1
+465.6562 	EXP 	text_8: height = 0.1
+465.6562 	EXP 	text_8: text = ''
+465.6562 	EXP 	text_8: height = 0.1
+465.6562 	EXP 	text_8: height = 0.1
+465.6562 	EXP 	text_8: height = 0.1
+465.6562 	EXP 	text_8: text = 'Fastighetsskötare'
+465.6562 	EXP 	image_3: autoDraw = True
+465.6562 	EXP 	text_8: autoDraw = True
+469.6469 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Skattehandläggare'}
+469.6634 	EXP 	image_3: autoDraw = False
+469.6634 	EXP 	text_8: autoDraw = False
+469.6634 	EXP 	polygon: autoDraw = True
+471.6749 	EXP 	polygon: autoDraw = False
+471.6749 	EXP 	polygon: autoDraw = False
+471.6749 	EXP 	image_3: image = 'Images_Faces/SH32.png'
+471.6749 	EXP 	text_8: height = 0.1
+471.6749 	EXP 	text_8: height = 0.1
+471.6749 	EXP 	text_8: height = 0.1
+471.6749 	EXP 	text_8: text = ''
+471.6749 	EXP 	text_8: height = 0.1
+471.6749 	EXP 	text_8: height = 0.1
+471.6749 	EXP 	text_8: height = 0.1
+471.6749 	EXP 	text_8: text = 'Skattehandläggare'
+471.6749 	EXP 	image_3: autoDraw = True
+471.6749 	EXP 	text_8: autoDraw = True
+475.6641 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare'}
+475.6800 	EXP 	image_3: autoDraw = False
+475.6800 	EXP 	text_8: autoDraw = False
+475.6800 	EXP 	polygon: autoDraw = True
+477.6878 	EXP 	polygon: autoDraw = False
+477.6878 	EXP 	polygon: autoDraw = False
+477.6878 	EXP 	image_3: image = 'Images_Faces/SH34.png'
+477.6878 	EXP 	text_8: height = 0.1
+477.6878 	EXP 	text_8: height = 0.1
+477.6878 	EXP 	text_8: height = 0.1
+477.6878 	EXP 	text_8: text = ''
+477.6878 	EXP 	text_8: height = 0.1
+477.6878 	EXP 	text_8: height = 0.1
+477.6878 	EXP 	text_8: height = 0.1
+477.6878 	EXP 	text_8: text = 'Marknadsförare'
+477.6878 	EXP 	image_3: autoDraw = True
+477.6878 	EXP 	text_8: autoDraw = True
+481.7384 	EXP 	image_3: autoDraw = False
+481.7384 	EXP 	text_8: autoDraw = False
+481.7384 	EXP 	text_6: height = 0.1
+481.7384 	EXP 	text_6: height = 0.1
+481.7384 	EXP 	text_6: height = 0.1
+481.7384 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+481.7384 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+481.7384 	EXP 	text_6: autoDraw = True
+481.7384 	EXP 	fingers: autoDraw = True
+487.6868 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+487.6879 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+487.6882 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+487.6884 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH31.png', 'Name': 0, 'Proffession': 'Fastighetsskötare'}
+487.6966 	EXP 	text_6: autoDraw = False
+487.6966 	EXP 	fingers: autoDraw = False
+487.6966 	EXP 	polygon: autoDraw = True
+489.7032 	EXP 	polygon: autoDraw = False
+489.7032 	EXP 	polygon: autoDraw = False
+489.7032 	EXP 	image: image = 'Images_Faces/SH31.png'
+489.7032 	EXP 	letters_text: height = 0.1
+489.7032 	EXP 	letters_text: height = 0.1
+489.7032 	EXP 	letters_text: height = 0.1
+489.7032 	EXP 	letters_text: text = 'M.\t\t\t\tF.\t\t\t\tJ.\t\t\t\tNY'
+489.7032 	EXP 	image: autoDraw = True
+489.7032 	EXP 	letters_text: autoDraw = True
+493.6975 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH33.png', 'Name': 0, 'Proffession': 'Elektriker'}
+493.7135 	EXP 	image: autoDraw = False
+493.7135 	EXP 	letters_text: autoDraw = False
+493.7135 	EXP 	polygon: autoDraw = True
+495.7197 	EXP 	polygon: autoDraw = False
+495.7197 	EXP 	polygon: autoDraw = False
+495.7197 	EXP 	image: image = 'Images_Faces/SH33.png'
+495.7197 	EXP 	letters_text: height = 0.1
+495.7197 	EXP 	letters_text: height = 0.1
+495.7197 	EXP 	letters_text: height = 0.1
+495.7197 	EXP 	letters_text: text = 'G.\t\t\t\tE.\t\t\t\tL.\t\t\t\tNY'
+495.7197 	EXP 	image: autoDraw = True
+495.7197 	EXP 	letters_text: autoDraw = True
+499.7139 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH34.png', 'Name': 0, 'Proffession': 'Marknadsförare'}
+499.7301 	EXP 	image: autoDraw = False
+499.7301 	EXP 	letters_text: autoDraw = False
+499.7301 	EXP 	polygon: autoDraw = True
+501.7372 	EXP 	polygon: autoDraw = False
+501.7372 	EXP 	polygon: autoDraw = False
+501.7372 	EXP 	image: image = 'Images_Faces/SH34.png'
+501.7372 	EXP 	letters_text: height = 0.1
+501.7372 	EXP 	letters_text: height = 0.1
+501.7372 	EXP 	letters_text: height = 0.1
+501.7372 	EXP 	letters_text: text = 'R.\t\t\t\tC.\t\t\t\tM.\t\t\t\tNY'
+501.7372 	EXP 	image: autoDraw = True
+501.7372 	EXP 	letters_text: autoDraw = True
+505.7309 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH35.png', 'Name': 0, 'Proffession': 'Kock'}
+505.7470 	EXP 	image: autoDraw = False
+505.7470 	EXP 	letters_text: autoDraw = False
+505.7470 	EXP 	polygon: autoDraw = True
+507.7510 	EXP 	polygon: autoDraw = False
+507.7510 	EXP 	polygon: autoDraw = False
+507.7510 	EXP 	image: image = 'Images_Faces/SH35.png'
+507.7510 	EXP 	letters_text: height = 0.1
+507.7510 	EXP 	letters_text: height = 0.1
+507.7510 	EXP 	letters_text: height = 0.1
+507.7510 	EXP 	letters_text: text = 'P.\t\t\t\tK.\t\t\t\tL.\t\t\t\tNY'
+507.7510 	EXP 	image: autoDraw = True
+507.7510 	EXP 	letters_text: autoDraw = True
+511.7319 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH32.png', 'Name': 0, 'Proffession': 'Skattehandläggare'}
+511.7472 	EXP 	image: autoDraw = False
+511.7472 	EXP 	letters_text: autoDraw = False
+511.7472 	EXP 	polygon: autoDraw = True
+513.7496 	EXP 	polygon: autoDraw = False
+513.7496 	EXP 	polygon: autoDraw = False
+513.7496 	EXP 	image: image = 'Images_Faces/SH32.png'
+513.7496 	EXP 	letters_text: height = 0.1
+513.7496 	EXP 	letters_text: height = 0.1
+513.7496 	EXP 	letters_text: height = 0.1
+513.7496 	EXP 	letters_text: text = 'L.\t\t\t\tB.\t\t\t\tS.\t\t\t\tNY'
+513.7496 	EXP 	image: autoDraw = True
+513.7496 	EXP 	letters_text: autoDraw = True
+517.7988 	EXP 	New trial (rep=1, index=0): None
+517.8019 	EXP 	image: autoDraw = False
+517.8019 	EXP 	letters_text: autoDraw = False
+517.8019 	EXP 	text_9: text = 'Memorera yrkestitel'
+517.8019 	EXP 	text_9: autoDraw = True
+521.7518 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+521.7529 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+521.7532 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+521.7534 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör'}
+521.7631 	EXP 	text_9: autoDraw = False
+521.7631 	EXP 	polygon: autoDraw = True
+523.7701 	EXP 	polygon: autoDraw = False
+523.7701 	EXP 	polygon: autoDraw = False
+523.7701 	EXP 	image_3: image = 'Images_Faces/SH38.png'
+523.7701 	EXP 	text_8: height = 0.1
+523.7701 	EXP 	text_8: height = 0.1
+523.7701 	EXP 	text_8: height = 0.1
+523.7701 	EXP 	text_8: text = ''
+523.7701 	EXP 	text_8: height = 0.1
+523.7701 	EXP 	text_8: height = 0.1
+523.7701 	EXP 	text_8: height = 0.1
+523.7701 	EXP 	text_8: text = 'Maskinoperatör'
+523.7701 	EXP 	image_3: autoDraw = True
+523.7701 	EXP 	text_8: autoDraw = True
+527.7639 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'VVS-montör'}
+527.7800 	EXP 	image_3: autoDraw = False
+527.7800 	EXP 	text_8: autoDraw = False
+527.7800 	EXP 	polygon: autoDraw = True
+529.7965 	EXP 	polygon: autoDraw = False
+529.7965 	EXP 	polygon: autoDraw = False
+529.7965 	EXP 	image_3: image = 'Images_Faces/SH36.png'
+529.7965 	EXP 	text_8: height = 0.1
+529.7965 	EXP 	text_8: height = 0.1
+529.7965 	EXP 	text_8: height = 0.1
+529.7965 	EXP 	text_8: text = ''
+529.7965 	EXP 	text_8: height = 0.1
+529.7965 	EXP 	text_8: height = 0.1
+529.7965 	EXP 	text_8: height = 0.1
+529.7965 	EXP 	text_8: text = 'VVS-montör'
+529.7965 	EXP 	image_3: autoDraw = True
+529.7965 	EXP 	text_8: autoDraw = True
+533.7809 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor'}
+533.7976 	EXP 	image_3: autoDraw = False
+533.7976 	EXP 	text_8: autoDraw = False
+533.7976 	EXP 	polygon: autoDraw = True
+535.8114 	EXP 	polygon: autoDraw = False
+535.8114 	EXP 	polygon: autoDraw = False
+535.8114 	EXP 	image_3: image = 'Images_Faces/SH40.png'
+535.8114 	EXP 	text_8: height = 0.1
+535.8114 	EXP 	text_8: height = 0.1
+535.8114 	EXP 	text_8: height = 0.1
+535.8114 	EXP 	text_8: text = ''
+535.8114 	EXP 	text_8: height = 0.1
+535.8114 	EXP 	text_8: height = 0.1
+535.8114 	EXP 	text_8: height = 0.1
+535.8114 	EXP 	text_8: text = 'Proffessor'
+535.8114 	EXP 	image_3: autoDraw = True
+535.8114 	EXP 	text_8: autoDraw = True
+539.7969 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Rektor'}
+539.8132 	EXP 	image_3: autoDraw = False
+539.8132 	EXP 	text_8: autoDraw = False
+539.8132 	EXP 	polygon: autoDraw = True
+541.8208 	EXP 	polygon: autoDraw = False
+541.8208 	EXP 	polygon: autoDraw = False
+541.8208 	EXP 	image_3: image = 'Images_Faces/SH39.png'
+541.8208 	EXP 	text_8: height = 0.1
+541.8208 	EXP 	text_8: height = 0.1
+541.8208 	EXP 	text_8: height = 0.1
+541.8208 	EXP 	text_8: text = ''
+541.8208 	EXP 	text_8: height = 0.1
+541.8208 	EXP 	text_8: height = 0.1
+541.8208 	EXP 	text_8: height = 0.1
+541.8208 	EXP 	text_8: text = 'Rektor'
+541.8208 	EXP 	image_3: autoDraw = True
+541.8208 	EXP 	text_8: autoDraw = True
+545.8135 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare'}
+545.8302 	EXP 	image_3: autoDraw = False
+545.8302 	EXP 	text_8: autoDraw = False
+545.8302 	EXP 	polygon: autoDraw = True
+547.8399 	EXP 	polygon: autoDraw = False
+547.8399 	EXP 	polygon: autoDraw = False
+547.8399 	EXP 	image_3: image = 'Images_Faces/SH37.png'
+547.8399 	EXP 	text_8: height = 0.1
+547.8399 	EXP 	text_8: height = 0.1
+547.8399 	EXP 	text_8: height = 0.1
+547.8399 	EXP 	text_8: text = ''
+547.8399 	EXP 	text_8: height = 0.1
+547.8399 	EXP 	text_8: height = 0.1
+547.8399 	EXP 	text_8: height = 0.1
+547.8399 	EXP 	text_8: text = 'Brevbärare'
+547.8399 	EXP 	image_3: autoDraw = True
+547.8399 	EXP 	text_8: autoDraw = True
+551.8876 	EXP 	image_3: autoDraw = False
+551.8876 	EXP 	text_8: autoDraw = False
+551.8876 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+551.8876 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+551.8876 	EXP 	text_6: autoDraw = True
+551.8876 	EXP 	fingers: autoDraw = True
+557.8360 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+557.8371 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+557.8374 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+557.8376 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH38.png', 'Name': 0, 'Proffession': 'Maskinoperatör'}
+557.8468 	EXP 	text_6: autoDraw = False
+557.8468 	EXP 	fingers: autoDraw = False
+557.8468 	EXP 	polygon: autoDraw = True
+559.8547 	EXP 	polygon: autoDraw = False
+559.8547 	EXP 	polygon: autoDraw = False
+559.8547 	EXP 	image: image = 'Images_Faces/SH38.png'
+559.8547 	EXP 	letters_text: height = 0.1
+559.8547 	EXP 	letters_text: height = 0.1
+559.8547 	EXP 	letters_text: height = 0.1
+559.8547 	EXP 	letters_text: text = 'M.\t\t\t\tD.\t\t\t\tF.\t\t\t\tNY'
+559.8547 	EXP 	image: autoDraw = True
+559.8547 	EXP 	letters_text: autoDraw = True
+563.6484 	DATA 	Keypress: 2
+563.8482 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH37.png', 'Name': 0, 'Proffession': 'Brevbärare'}
+563.8635 	EXP 	image: autoDraw = False
+563.8635 	EXP 	letters_text: autoDraw = False
+563.8635 	EXP 	polygon: autoDraw = True
+565.8696 	EXP 	polygon: autoDraw = False
+565.8696 	EXP 	polygon: autoDraw = False
+565.8696 	EXP 	image: image = 'Images_Faces/SH37.png'
+565.8696 	EXP 	letters_text: height = 0.1
+565.8696 	EXP 	letters_text: height = 0.1
+565.8696 	EXP 	letters_text: height = 0.1
+565.8696 	EXP 	letters_text: text = 'S.\t\t\t\tH.\t\t\t\tB.\t\t\t\tNY'
+565.8696 	EXP 	image: autoDraw = True
+565.8696 	EXP 	letters_text: autoDraw = True
+567.5666 	DATA 	Keypress: 3
+569.8649 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH40.png', 'Name': 0, 'Proffession': 'Proffessor'}
+569.8805 	EXP 	image: autoDraw = False
+569.8805 	EXP 	letters_text: autoDraw = False
+569.8805 	EXP 	polygon: autoDraw = True
+571.8843 	EXP 	polygon: autoDraw = False
+571.8843 	EXP 	polygon: autoDraw = False
+571.8843 	EXP 	image: image = 'Images_Faces/SH40.png'
+571.8843 	EXP 	letters_text: height = 0.1
+571.8843 	EXP 	letters_text: height = 0.1
+571.8843 	EXP 	letters_text: height = 0.1
+571.8843 	EXP 	letters_text: text = 'M.\t\t\t\tP.\t\t\t\tA.\t\t\t\tNY'
+571.8843 	EXP 	image: autoDraw = True
+571.8843 	EXP 	letters_text: autoDraw = True
+575.8803 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH36.png', 'Name': 0, 'Proffession': 'VVS-montör'}
+575.8967 	EXP 	image: autoDraw = False
+575.8967 	EXP 	letters_text: autoDraw = False
+575.8967 	EXP 	polygon: autoDraw = True
+577.9219 	EXP 	polygon: autoDraw = False
+577.9219 	EXP 	polygon: autoDraw = False
+577.9219 	EXP 	image: image = 'Images_Faces/SH36.png'
+577.9219 	EXP 	letters_text: height = 0.1
+577.9219 	EXP 	letters_text: height = 0.1
+577.9219 	EXP 	letters_text: height = 0.1
+577.9219 	EXP 	letters_text: text = 'G.\t\t\t\tV.\t\t\t\tN.\t\t\t\tNY'
+577.9219 	EXP 	image: autoDraw = True
+577.9219 	EXP 	letters_text: autoDraw = True
+581.8971 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH39.png', 'Name': 0, 'Proffession': 'Rektor'}
+581.9131 	EXP 	image: autoDraw = False
+581.9131 	EXP 	letters_text: autoDraw = False
+581.9131 	EXP 	polygon: autoDraw = True
+583.9239 	EXP 	polygon: autoDraw = False
+583.9239 	EXP 	polygon: autoDraw = False
+583.9239 	EXP 	image: image = 'Images_Faces/SH39.png'
+583.9239 	EXP 	letters_text: height = 0.1
+583.9239 	EXP 	letters_text: height = 0.1
+583.9239 	EXP 	letters_text: height = 0.1
+583.9239 	EXP 	letters_text: text = 'R.\t\t\t\tT.\t\t\t\tB.\t\t\t\tNY'
+583.9239 	EXP 	image: autoDraw = True
+583.9239 	EXP 	letters_text: autoDraw = True
+587.9751 	EXP 	New trial (rep=2, index=0): None
+587.9782 	EXP 	image: autoDraw = False
+587.9782 	EXP 	letters_text: autoDraw = False
+587.9782 	EXP 	text_9: text = 'Memorera yrkestitel'
+587.9782 	EXP 	text_9: autoDraw = True
+591.9193 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+591.9204 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+591.9207 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+591.9208 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt'}
+591.9300 	EXP 	text_9: autoDraw = False
+591.9300 	EXP 	polygon: autoDraw = True
+593.9367 	EXP 	polygon: autoDraw = False
+593.9367 	EXP 	polygon: autoDraw = False
+593.9367 	EXP 	image_3: image = 'Images_Faces/SH41.png'
+593.9367 	EXP 	text_8: height = 0.1
+593.9367 	EXP 	text_8: height = 0.1
+593.9367 	EXP 	text_8: height = 0.1
+593.9367 	EXP 	text_8: text = ''
+593.9367 	EXP 	text_8: height = 0.1
+593.9367 	EXP 	text_8: height = 0.1
+593.9367 	EXP 	text_8: height = 0.1
+593.9367 	EXP 	text_8: text = 'Säkerhetsvakt'
+593.9367 	EXP 	image_3: autoDraw = True
+593.9367 	EXP 	text_8: autoDraw = True
+597.9308 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Försäkringsrådgivare'}
+597.9468 	EXP 	image_3: autoDraw = False
+597.9468 	EXP 	text_8: autoDraw = False
+597.9468 	EXP 	polygon: autoDraw = True
+599.9575 	EXP 	polygon: autoDraw = False
+599.9575 	EXP 	polygon: autoDraw = False
+599.9575 	EXP 	image_3: image = 'Images_Faces/SH44.png'
+599.9575 	EXP 	text_8: height = 0.1
+599.9575 	EXP 	text_8: height = 0.1
+599.9575 	EXP 	text_8: height = 0.1
+599.9575 	EXP 	text_8: text = ''
+599.9575 	EXP 	text_8: height = 0.1
+599.9575 	EXP 	text_8: height = 0.1
+599.9575 	EXP 	text_8: height = 0.1
+599.9575 	EXP 	text_8: text = 'Försäkringsrådgivare'
+599.9575 	EXP 	image_3: autoDraw = True
+599.9575 	EXP 	text_8: autoDraw = True
+603.9468 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare'}
+603.9633 	EXP 	image_3: autoDraw = False
+603.9633 	EXP 	text_8: autoDraw = False
+603.9633 	EXP 	polygon: autoDraw = True
+605.9714 	EXP 	polygon: autoDraw = False
+605.9714 	EXP 	polygon: autoDraw = False
+605.9714 	EXP 	image_3: image = 'Images_Faces/SH42.png'
+605.9714 	EXP 	text_8: height = 0.1
+605.9714 	EXP 	text_8: height = 0.1
+605.9714 	EXP 	text_8: height = 0.1
+605.9714 	EXP 	text_8: text = ''
+605.9714 	EXP 	text_8: height = 0.1
+605.9714 	EXP 	text_8: height = 0.1
+605.9714 	EXP 	text_8: height = 0.1
+605.9714 	EXP 	text_8: text = 'Tandläkare'
+605.9714 	EXP 	image_3: autoDraw = True
+605.9714 	EXP 	text_8: autoDraw = True
+609.9640 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare'}
+609.9803 	EXP 	image_3: autoDraw = False
+609.9803 	EXP 	text_8: autoDraw = False
+609.9803 	EXP 	polygon: autoDraw = True
+611.9901 	EXP 	polygon: autoDraw = False
+611.9901 	EXP 	polygon: autoDraw = False
+611.9901 	EXP 	image_3: image = 'Images_Faces/SH43.png'
+611.9901 	EXP 	text_8: height = 0.1
+611.9901 	EXP 	text_8: height = 0.1
+611.9901 	EXP 	text_8: height = 0.1
+611.9901 	EXP 	text_8: text = ''
+611.9901 	EXP 	text_8: height = 0.1
+611.9901 	EXP 	text_8: height = 0.1
+611.9901 	EXP 	text_8: height = 0.1
+611.9901 	EXP 	text_8: text = 'Arbetsledare'
+611.9901 	EXP 	image_3: autoDraw = True
+611.9901 	EXP 	text_8: autoDraw = True
+615.9810 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Vetrinär'}
+615.9971 	EXP 	image_3: autoDraw = False
+615.9971 	EXP 	text_8: autoDraw = False
+615.9971 	EXP 	polygon: autoDraw = True
+618.0063 	EXP 	polygon: autoDraw = False
+618.0063 	EXP 	polygon: autoDraw = False
+618.0063 	EXP 	image_3: image = 'Images_Faces/SH45.png'
+618.0063 	EXP 	text_8: height = 0.1
+618.0063 	EXP 	text_8: height = 0.1
+618.0063 	EXP 	text_8: height = 0.1
+618.0063 	EXP 	text_8: text = ''
+618.0063 	EXP 	text_8: height = 0.1
+618.0063 	EXP 	text_8: height = 0.1
+618.0063 	EXP 	text_8: height = 0.1
+618.0063 	EXP 	text_8: text = 'Vetrinär'
+618.0063 	EXP 	image_3: autoDraw = True
+618.0063 	EXP 	text_8: autoDraw = True
+622.0599 	EXP 	image_3: autoDraw = False
+622.0599 	EXP 	text_8: autoDraw = False
+622.0599 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+622.0599 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+622.0599 	EXP 	text_6: autoDraw = True
+622.0599 	EXP 	fingers: autoDraw = True
+628.0025 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+628.0036 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+628.0039 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+628.0041 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH45.png', 'Name': 0, 'Proffession': 'Vetrinär'}
+628.0132 	EXP 	text_6: autoDraw = False
+628.0132 	EXP 	fingers: autoDraw = False
+628.0132 	EXP 	polygon: autoDraw = True
+630.0199 	EXP 	polygon: autoDraw = False
+630.0199 	EXP 	polygon: autoDraw = False
+630.0199 	EXP 	image: image = 'Images_Faces/SH45.png'
+630.0199 	EXP 	letters_text: height = 0.1
+630.0199 	EXP 	letters_text: height = 0.1
+630.0199 	EXP 	letters_text: height = 0.1
+630.0199 	EXP 	letters_text: text = 'V.\t\t\t\tT.\t\t\t\tO.\t\t\t\tNY'
+630.0199 	EXP 	image: autoDraw = True
+630.0199 	EXP 	letters_text: autoDraw = True
+634.0136 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH42.png', 'Name': 0, 'Proffession': 'Tandläkare'}
+634.0299 	EXP 	image: autoDraw = False
+634.0299 	EXP 	letters_text: autoDraw = False
+634.0299 	EXP 	polygon: autoDraw = True
+634.4005 	DATA 	Keypress: 1
+636.0347 	EXP 	polygon: autoDraw = False
+636.0347 	EXP 	polygon: autoDraw = False
+636.0347 	EXP 	image: image = 'Images_Faces/SH42.png'
+636.0347 	EXP 	letters_text: height = 0.1
+636.0347 	EXP 	letters_text: height = 0.1
+636.0347 	EXP 	letters_text: height = 0.1
+636.0347 	EXP 	letters_text: text = 'V.\t\t\t\tT.\t\t\t\tK.\t\t\t\tNY'
+636.0347 	EXP 	image: autoDraw = True
+636.0347 	EXP 	letters_text: autoDraw = True
+638.4317 	DATA 	Keypress: 3
+640.0312 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH41.png', 'Name': 0, 'Proffession': 'Säkerhetsvakt'}
+640.0467 	EXP 	image: autoDraw = False
+640.0467 	EXP 	letters_text: autoDraw = False
+640.0467 	EXP 	polygon: autoDraw = True
+642.0513 	EXP 	polygon: autoDraw = False
+642.0513 	EXP 	polygon: autoDraw = False
+642.0513 	EXP 	image: image = 'Images_Faces/SH41.png'
+642.0513 	EXP 	letters_text: height = 0.1
+642.0513 	EXP 	letters_text: height = 0.1
+642.0513 	EXP 	letters_text: height = 0.1
+642.0513 	EXP 	letters_text: text = 'M.\t\t\t\tK.\t\t\t\tS.\t\t\t\tNY'
+642.0513 	EXP 	image: autoDraw = True
+642.0513 	EXP 	letters_text: autoDraw = True
+646.0472 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH44.png', 'Name': 0, 'Proffession': 'Försäkringsrådgivare'}
+646.0632 	EXP 	image: autoDraw = False
+646.0632 	EXP 	letters_text: autoDraw = False
+646.0632 	EXP 	polygon: autoDraw = True
+648.0684 	EXP 	polygon: autoDraw = False
+648.0684 	EXP 	polygon: autoDraw = False
+648.0684 	EXP 	image: image = 'Images_Faces/SH44.png'
+648.0684 	EXP 	letters_text: height = 0.1
+648.0684 	EXP 	letters_text: height = 0.1
+648.0684 	EXP 	letters_text: height = 0.1
+648.0684 	EXP 	letters_text: text = 'S.\t\t\t\tF.\t\t\t\tI.\t\t\t\tNY'
+648.0684 	EXP 	image: autoDraw = True
+648.0684 	EXP 	letters_text: autoDraw = True
+652.0635 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH43.png', 'Name': 0, 'Proffession': 'Arbetsledare'}
+652.0799 	EXP 	image: autoDraw = False
+652.0799 	EXP 	letters_text: autoDraw = False
+652.0799 	EXP 	polygon: autoDraw = True
+654.0906 	EXP 	polygon: autoDraw = False
+654.0906 	EXP 	polygon: autoDraw = False
+654.0906 	EXP 	image: image = 'Images_Faces/SH43.png'
+654.0906 	EXP 	letters_text: height = 0.1
+654.0906 	EXP 	letters_text: height = 0.1
+654.0906 	EXP 	letters_text: height = 0.1
+654.0906 	EXP 	letters_text: text = 'T.\t\t\t\tA.\t\t\t\tU.\t\t\t\tNY'
+654.0906 	EXP 	image: autoDraw = True
+654.0906 	EXP 	letters_text: autoDraw = True
+656.2981 	DATA 	Keypress: 2
+658.2016 	EXP 	New trial (rep=3, index=0): None
+658.2048 	EXP 	image: autoDraw = False
+658.2048 	EXP 	letters_text: autoDraw = False
+658.2048 	EXP 	text_9: text = 'Memorera yrkestitel'
+658.2048 	EXP 	text_9: autoDraw = True
+662.0872 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+662.0885 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+662.0888 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+662.0890 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare'}
+662.0965 	EXP 	text_9: autoDraw = False
+662.0965 	EXP 	polygon: autoDraw = True
+664.1037 	EXP 	polygon: autoDraw = False
+664.1037 	EXP 	polygon: autoDraw = False
+664.1037 	EXP 	image_3: image = 'Images_Faces/SH47.png'
+664.1037 	EXP 	text_8: height = 0.1
+664.1037 	EXP 	text_8: height = 0.1
+664.1037 	EXP 	text_8: height = 0.1
+664.1037 	EXP 	text_8: text = ''
+664.1037 	EXP 	text_8: height = 0.1
+664.1037 	EXP 	text_8: height = 0.1
+664.1037 	EXP 	text_8: height = 0.1
+664.1037 	EXP 	text_8: text = 'Plåtslagare'
+664.1037 	EXP 	image_3: autoDraw = True
+664.1037 	EXP 	text_8: autoDraw = True
+668.0971 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist'}
+668.1137 	EXP 	image_3: autoDraw = False
+668.1137 	EXP 	text_8: autoDraw = False
+668.1137 	EXP 	polygon: autoDraw = True
+670.1240 	EXP 	polygon: autoDraw = False
+670.1240 	EXP 	polygon: autoDraw = False
+670.1240 	EXP 	image_3: image = 'Images_Faces/SH48.png'
+670.1240 	EXP 	text_8: height = 0.1
+670.1240 	EXP 	text_8: height = 0.1
+670.1240 	EXP 	text_8: height = 0.1
+670.1240 	EXP 	text_8: text = ''
+670.1240 	EXP 	text_8: height = 0.1
+670.1240 	EXP 	text_8: height = 0.1
+670.1240 	EXP 	text_8: height = 0.1
+670.1240 	EXP 	text_8: text = 'Jurist'
+670.1240 	EXP 	image_3: autoDraw = True
+670.1240 	EXP 	text_8: autoDraw = True
+674.1150 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare'}
+674.1304 	EXP 	image_3: autoDraw = False
+674.1304 	EXP 	text_8: autoDraw = False
+674.1304 	EXP 	polygon: autoDraw = True
+676.1437 	EXP 	polygon: autoDraw = False
+676.1437 	EXP 	polygon: autoDraw = False
+676.1437 	EXP 	image_3: image = 'Images_Faces/SH49.png'
+676.1437 	EXP 	text_8: height = 0.1
+676.1437 	EXP 	text_8: height = 0.1
+676.1437 	EXP 	text_8: height = 0.1
+676.1437 	EXP 	text_8: text = ''
+676.1437 	EXP 	text_8: height = 0.1
+676.1437 	EXP 	text_8: height = 0.1
+676.1437 	EXP 	text_8: height = 0.1
+676.1437 	EXP 	text_8: text = 'Hovmästare'
+676.1437 	EXP 	image_3: autoDraw = True
+676.1437 	EXP 	text_8: autoDraw = True
+680.1306 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Inköpare'}
+680.1470 	EXP 	image_3: autoDraw = False
+680.1470 	EXP 	text_8: autoDraw = False
+680.1470 	EXP 	polygon: autoDraw = True
+682.1616 	EXP 	polygon: autoDraw = False
+682.1616 	EXP 	polygon: autoDraw = False
+682.1616 	EXP 	image_3: image = 'Images_Faces/SH46.png'
+682.1616 	EXP 	text_8: height = 0.1
+682.1616 	EXP 	text_8: height = 0.1
+682.1616 	EXP 	text_8: height = 0.1
+682.1616 	EXP 	text_8: text = ''
+682.1616 	EXP 	text_8: height = 0.1
+682.1616 	EXP 	text_8: height = 0.1
+682.1616 	EXP 	text_8: height = 0.1
+682.1616 	EXP 	text_8: text = 'Inköpare'
+682.1616 	EXP 	image_3: autoDraw = True
+682.1616 	EXP 	text_8: autoDraw = True
+686.1467 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender'}
+686.1630 	EXP 	image_3: autoDraw = False
+686.1630 	EXP 	text_8: autoDraw = False
+686.1630 	EXP 	polygon: autoDraw = True
+688.1723 	EXP 	polygon: autoDraw = False
+688.1723 	EXP 	polygon: autoDraw = False
+688.1723 	EXP 	image_3: image = 'Images_Faces/SH50.png'
+688.1723 	EXP 	text_8: height = 0.1
+688.1723 	EXP 	text_8: height = 0.1
+688.1723 	EXP 	text_8: height = 0.1
+688.1723 	EXP 	text_8: text = ''
+688.1723 	EXP 	text_8: height = 0.1
+688.1723 	EXP 	text_8: height = 0.1
+688.1723 	EXP 	text_8: height = 0.1
+688.1723 	EXP 	text_8: text = 'Bartender'
+688.1723 	EXP 	image_3: autoDraw = True
+688.1723 	EXP 	text_8: autoDraw = True
+692.2321 	EXP 	image_3: autoDraw = False
+692.2321 	EXP 	text_8: autoDraw = False
+692.2321 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+692.2321 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+692.2321 	EXP 	text_6: autoDraw = True
+692.2321 	EXP 	fingers: autoDraw = True
+698.1675 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+698.1685 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+698.1689 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+698.1691 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH48.png', 'Name': 0, 'Proffession': 'Jurist'}
+698.1796 	EXP 	text_6: autoDraw = False
+698.1796 	EXP 	fingers: autoDraw = False
+698.1796 	EXP 	polygon: autoDraw = True
+700.1898 	EXP 	polygon: autoDraw = False
+700.1898 	EXP 	polygon: autoDraw = False
+700.1898 	EXP 	image: image = 'Images_Faces/SH48.png'
+700.1898 	EXP 	letters_text: height = 0.1
+700.1898 	EXP 	letters_text: height = 0.1
+700.1898 	EXP 	letters_text: height = 0.1
+700.1898 	EXP 	letters_text: text = 'J.\t\t\t\tA.\t\t\t\tG.\t\t\t\tNY'
+700.1898 	EXP 	image: autoDraw = True
+700.1898 	EXP 	letters_text: autoDraw = True
+703.7314 	DATA 	Keypress: 1
+704.1814 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH50.png', 'Name': 0, 'Proffession': 'Bartender'}
+704.1969 	EXP 	image: autoDraw = False
+704.1969 	EXP 	letters_text: autoDraw = False
+704.1969 	EXP 	polygon: autoDraw = True
+706.1999 	EXP 	polygon: autoDraw = False
+706.1999 	EXP 	polygon: autoDraw = False
+706.1999 	EXP 	image: image = 'Images_Faces/SH50.png'
+706.1999 	EXP 	letters_text: height = 0.1
+706.1999 	EXP 	letters_text: height = 0.1
+706.1999 	EXP 	letters_text: height = 0.1
+706.1999 	EXP 	letters_text: text = 'B.\t\t\t\tG.\t\t\t\tÅ.\t\t\t\tNY'
+706.1999 	EXP 	image: autoDraw = True
+706.1999 	EXP 	letters_text: autoDraw = True
+707.3992 	DATA 	Keypress: 1
+710.1977 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH49.png', 'Name': 0, 'Proffession': 'Hovmästare'}
+710.2137 	EXP 	image: autoDraw = False
+710.2137 	EXP 	letters_text: autoDraw = False
+710.2137 	EXP 	polygon: autoDraw = True
+712.2203 	EXP 	polygon: autoDraw = False
+712.2203 	EXP 	polygon: autoDraw = False
+712.2203 	EXP 	image: image = 'Images_Faces/SH49.png'
+712.2203 	EXP 	letters_text: height = 0.1
+712.2203 	EXP 	letters_text: height = 0.1
+712.2203 	EXP 	letters_text: height = 0.1
+712.2203 	EXP 	letters_text: text = 'H.\t\t\t\tV.\t\t\t\tI.\t\t\t\tNY'
+712.2203 	EXP 	image: autoDraw = True
+712.2203 	EXP 	letters_text: autoDraw = True
+713.5162 	DATA 	Keypress: 1
+716.2148 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH46.png', 'Name': 0, 'Proffession': 'Inköpare'}
+716.2299 	EXP 	image: autoDraw = False
+716.2299 	EXP 	letters_text: autoDraw = False
+716.2299 	EXP 	polygon: autoDraw = True
+718.2384 	EXP 	polygon: autoDraw = False
+718.2384 	EXP 	polygon: autoDraw = False
+718.2384 	EXP 	image: image = 'Images_Faces/SH46.png'
+718.2384 	EXP 	letters_text: height = 0.1
+718.2384 	EXP 	letters_text: height = 0.1
+718.2384 	EXP 	letters_text: height = 0.1
+718.2384 	EXP 	letters_text: text = 'I.\t\t\t\tJ.\t\t\t\tF.\t\t\t\tNY'
+718.2384 	EXP 	image: autoDraw = True
+718.2384 	EXP 	letters_text: autoDraw = True
+722.0813 	DATA 	Keypress: 2
+722.2313 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH47.png', 'Name': 0, 'Proffession': 'Plåtslagare'}
+722.2470 	EXP 	image: autoDraw = False
+722.2470 	EXP 	letters_text: autoDraw = False
+722.2470 	EXP 	polygon: autoDraw = True
+724.2506 	EXP 	polygon: autoDraw = False
+724.2506 	EXP 	polygon: autoDraw = False
+724.2506 	EXP 	image: image = 'Images_Faces/SH47.png'
+724.2506 	EXP 	letters_text: height = 0.1
+724.2506 	EXP 	letters_text: height = 0.1
+724.2506 	EXP 	letters_text: height = 0.1
+724.2506 	EXP 	letters_text: text = 'N.\t\t\t\tP.\t\t\t\tJ.\t\t\t\tNY'
+724.2506 	EXP 	image: autoDraw = True
+724.2506 	EXP 	letters_text: autoDraw = True
+725.7649 	DATA 	Keypress: 2
+728.3193 	EXP 	New trial (rep=4, index=0): None
+728.3227 	EXP 	image: autoDraw = False
+728.3227 	EXP 	letters_text: autoDraw = False
+728.3227 	EXP 	text_9: text = 'Memorera yrkestitel'
+728.3227 	EXP 	text_9: autoDraw = True
+732.2548 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+732.2559 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+732.2563 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+732.2564 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'Lastbilschaufför'}
+732.2634 	EXP 	text_9: autoDraw = False
+732.2634 	EXP 	polygon: autoDraw = True
+734.2772 	EXP 	polygon: autoDraw = False
+734.2772 	EXP 	polygon: autoDraw = False
+734.2772 	EXP 	image_3: image = 'Images_Faces/SH53.png'
+734.2772 	EXP 	text_8: height = 0.1
+734.2772 	EXP 	text_8: height = 0.1
+734.2772 	EXP 	text_8: height = 0.1
+734.2772 	EXP 	text_8: text = ''
+734.2772 	EXP 	text_8: height = 0.1
+734.2772 	EXP 	text_8: height = 0.1
+734.2772 	EXP 	text_8: height = 0.1
+734.2772 	EXP 	text_8: text = 'Lastbilschaufför'
+734.2772 	EXP 	image_3: autoDraw = True
+734.2772 	EXP 	text_8: autoDraw = True
+738.2635 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare'}
+738.2796 	EXP 	image_3: autoDraw = False
+738.2796 	EXP 	text_8: autoDraw = False
+738.2796 	EXP 	polygon: autoDraw = True
+740.2964 	EXP 	polygon: autoDraw = False
+740.2964 	EXP 	polygon: autoDraw = False
+740.2964 	EXP 	image_3: image = 'Images_Faces/SH54.png'
+740.2964 	EXP 	text_8: height = 0.1
+740.2964 	EXP 	text_8: height = 0.1
+740.2964 	EXP 	text_8: height = 0.1
+740.2964 	EXP 	text_8: text = ''
+740.2964 	EXP 	text_8: height = 0.1
+740.2964 	EXP 	text_8: height = 0.1
+740.2964 	EXP 	text_8: height = 0.1
+740.2964 	EXP 	text_8: text = 'Trädgårdsmästare'
+740.2964 	EXP 	image_3: autoDraw = True
+740.2964 	EXP 	text_8: autoDraw = True
+744.2806 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Nätverkstekniker'}
+744.2971 	EXP 	image_3: autoDraw = False
+744.2971 	EXP 	text_8: autoDraw = False
+744.2971 	EXP 	polygon: autoDraw = True
+746.3068 	EXP 	polygon: autoDraw = False
+746.3068 	EXP 	polygon: autoDraw = False
+746.3068 	EXP 	image_3: image = 'Images_Faces/SH51.png'
+746.3068 	EXP 	text_8: height = 0.1
+746.3068 	EXP 	text_8: height = 0.1
+746.3068 	EXP 	text_8: height = 0.1
+746.3068 	EXP 	text_8: text = ''
+746.3068 	EXP 	text_8: height = 0.1
+746.3068 	EXP 	text_8: height = 0.1
+746.3068 	EXP 	text_8: height = 0.1
+746.3068 	EXP 	text_8: text = 'Nätverkstekniker'
+746.3068 	EXP 	image_3: autoDraw = True
+746.3068 	EXP 	text_8: autoDraw = True
+750.2811 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Apotekare'}
+750.2969 	EXP 	image_3: autoDraw = False
+750.2969 	EXP 	text_8: autoDraw = False
+750.2969 	EXP 	polygon: autoDraw = True
+752.3111 	EXP 	polygon: autoDraw = False
+752.3111 	EXP 	polygon: autoDraw = False
+752.3111 	EXP 	image_3: image = 'Images_Faces/SH55.png'
+752.3111 	EXP 	text_8: height = 0.1
+752.3111 	EXP 	text_8: height = 0.1
+752.3111 	EXP 	text_8: height = 0.1
+752.3111 	EXP 	text_8: text = ''
+752.3111 	EXP 	text_8: height = 0.1
+752.3111 	EXP 	text_8: height = 0.1
+752.3111 	EXP 	text_8: height = 0.1
+752.3111 	EXP 	text_8: text = 'Apotekare'
+752.3111 	EXP 	image_3: autoDraw = True
+752.3111 	EXP 	text_8: autoDraw = True
+756.2975 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast'}
+756.3137 	EXP 	image_3: autoDraw = False
+756.3137 	EXP 	text_8: autoDraw = False
+756.3137 	EXP 	polygon: autoDraw = True
+758.3266 	EXP 	polygon: autoDraw = False
+758.3266 	EXP 	polygon: autoDraw = False
+758.3266 	EXP 	image_3: image = 'Images_Faces/SH52.png'
+758.3266 	EXP 	text_8: height = 0.1
+758.3266 	EXP 	text_8: height = 0.1
+758.3266 	EXP 	text_8: height = 0.1
+758.3266 	EXP 	text_8: text = ''
+758.3266 	EXP 	text_8: height = 0.1
+758.3266 	EXP 	text_8: height = 0.1
+758.3266 	EXP 	text_8: height = 0.1
+758.3266 	EXP 	text_8: text = 'Sjukgymnast'
+758.3266 	EXP 	image_3: autoDraw = True
+758.3266 	EXP 	text_8: autoDraw = True
+762.3912 	EXP 	image_3: autoDraw = False
+762.3912 	EXP 	text_8: autoDraw = False
+762.3912 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+762.3912 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+762.3912 	EXP 	text_6: autoDraw = True
+762.3912 	EXP 	fingers: autoDraw = True
+768.3173 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+768.3183 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+768.3187 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+768.3188 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH54.png', 'Name': 0, 'Proffession': 'Trädgårdsmästare'}
+768.3297 	EXP 	text_6: autoDraw = False
+768.3297 	EXP 	fingers: autoDraw = False
+768.3297 	EXP 	polygon: autoDraw = True
+770.3400 	EXP 	polygon: autoDraw = False
+770.3400 	EXP 	polygon: autoDraw = False
+770.3400 	EXP 	image: image = 'Images_Faces/SH54.png'
+770.3400 	EXP 	letters_text: height = 0.1
+770.3400 	EXP 	letters_text: height = 0.1
+770.3400 	EXP 	letters_text: height = 0.1
+770.3400 	EXP 	letters_text: text = 'Ä.\t\t\t\tT.\t\t\t\tL.\t\t\t\tNY'
+770.3400 	EXP 	image: autoDraw = True
+770.3400 	EXP 	letters_text: autoDraw = True
+774.3311 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH52.png', 'Name': 0, 'Proffession': 'Sjukgymnast'}
+774.3465 	EXP 	image: autoDraw = False
+774.3465 	EXP 	letters_text: autoDraw = False
+774.3465 	EXP 	polygon: autoDraw = True
+776.3518 	EXP 	polygon: autoDraw = False
+776.3518 	EXP 	polygon: autoDraw = False
+776.3518 	EXP 	image: image = 'Images_Faces/SH52.png'
+776.3518 	EXP 	letters_text: height = 0.1
+776.3518 	EXP 	letters_text: height = 0.1
+776.3518 	EXP 	letters_text: height = 0.1
+776.3518 	EXP 	letters_text: text = 'S.\t\t\t\tÄ.\t\t\t\tU.\t\t\t\tNY'
+776.3518 	EXP 	image: autoDraw = True
+776.3518 	EXP 	letters_text: autoDraw = True
+780.3471 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH55.png', 'Name': 0, 'Proffession': 'Apotekare'}
+780.3632 	EXP 	image: autoDraw = False
+780.3632 	EXP 	letters_text: autoDraw = False
+780.3632 	EXP 	polygon: autoDraw = True
+782.3726 	EXP 	polygon: autoDraw = False
+782.3726 	EXP 	polygon: autoDraw = False
+782.3726 	EXP 	image: image = 'Images_Faces/SH55.png'
+782.3726 	EXP 	letters_text: height = 0.1
+782.3726 	EXP 	letters_text: height = 0.1
+782.3726 	EXP 	letters_text: height = 0.1
+782.3726 	EXP 	letters_text: text = 'S.\t\t\t\tA.\t\t\t\tN.\t\t\t\tNY'
+782.3726 	EXP 	image: autoDraw = True
+782.3726 	EXP 	letters_text: autoDraw = True
+786.3640 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH53.png', 'Name': 0, 'Proffession': 'Lastbilschaufför'}
+786.3801 	EXP 	image: autoDraw = False
+786.3801 	EXP 	letters_text: autoDraw = False
+786.3801 	EXP 	polygon: autoDraw = True
+788.3861 	EXP 	polygon: autoDraw = False
+788.3861 	EXP 	polygon: autoDraw = False
+788.3861 	EXP 	image: image = 'Images_Faces/SH53.png'
+788.3861 	EXP 	letters_text: height = 0.1
+788.3861 	EXP 	letters_text: height = 0.1
+788.3861 	EXP 	letters_text: height = 0.1
+788.3861 	EXP 	letters_text: text = 'C.\t\t\t\tL.\t\t\t\tE.\t\t\t\tNY'
+788.3861 	EXP 	image: autoDraw = True
+788.3861 	EXP 	letters_text: autoDraw = True
+792.3809 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH51.png', 'Name': 0, 'Proffession': 'Nätverkstekniker'}
+792.3965 	EXP 	image: autoDraw = False
+792.3965 	EXP 	letters_text: autoDraw = False
+792.3965 	EXP 	polygon: autoDraw = True
+794.4071 	EXP 	polygon: autoDraw = False
+794.4071 	EXP 	polygon: autoDraw = False
+794.4071 	EXP 	image: image = 'Images_Faces/SH51.png'
+794.4071 	EXP 	letters_text: height = 0.1
+794.4071 	EXP 	letters_text: height = 0.1
+794.4071 	EXP 	letters_text: height = 0.1
+794.4071 	EXP 	letters_text: text = 'S.\t\t\t\tH.\t\t\t\tN.\t\t\t\tNY'
+794.4071 	EXP 	image: autoDraw = True
+794.4071 	EXP 	letters_text: autoDraw = True
+798.4691 	EXP 	New trial (rep=5, index=0): None
+798.4721 	EXP 	image: autoDraw = False
+798.4721 	EXP 	letters_text: autoDraw = False
+798.4721 	EXP 	text_9: text = 'Memorera yrkestitel'
+798.4721 	EXP 	text_9: autoDraw = True
+802.4014 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+802.4024 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+802.4027 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+802.4029 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis'}
+802.4130 	EXP 	text_9: autoDraw = False
+802.4130 	EXP 	polygon: autoDraw = True
+804.4182 	EXP 	polygon: autoDraw = False
+804.4182 	EXP 	polygon: autoDraw = False
+804.4182 	EXP 	image_3: image = 'Images_Faces/SH60.png'
+804.4182 	EXP 	text_8: height = 0.1
+804.4182 	EXP 	text_8: height = 0.1
+804.4182 	EXP 	text_8: height = 0.1
+804.4182 	EXP 	text_8: text = ''
+804.4182 	EXP 	text_8: height = 0.1
+804.4182 	EXP 	text_8: height = 0.1
+804.4182 	EXP 	text_8: height = 0.1
+804.4182 	EXP 	text_8: text = 'Polis'
+804.4182 	EXP 	image_3: autoDraw = True
+804.4182 	EXP 	text_8: autoDraw = True
+808.4136 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare'}
+808.4296 	EXP 	image_3: autoDraw = False
+808.4296 	EXP 	text_8: autoDraw = False
+808.4296 	EXP 	polygon: autoDraw = True
+810.4408 	EXP 	polygon: autoDraw = False
+810.4408 	EXP 	polygon: autoDraw = False
+810.4408 	EXP 	image_3: image = 'Images_Faces/SH59.png'
+810.4408 	EXP 	text_8: height = 0.1
+810.4408 	EXP 	text_8: height = 0.1
+810.4408 	EXP 	text_8: height = 0.1
+810.4408 	EXP 	text_8: text = ''
+810.4408 	EXP 	text_8: height = 0.1
+810.4408 	EXP 	text_8: height = 0.1
+810.4408 	EXP 	text_8: height = 0.1
+810.4408 	EXP 	text_8: text = 'Körskollärare'
+810.4408 	EXP 	image_3: autoDraw = True
+810.4408 	EXP 	text_8: autoDraw = True
+814.4303 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Undersköterska'}
+814.4465 	EXP 	image_3: autoDraw = False
+814.4465 	EXP 	text_8: autoDraw = False
+814.4465 	EXP 	polygon: autoDraw = True
+816.4609 	EXP 	polygon: autoDraw = False
+816.4609 	EXP 	polygon: autoDraw = False
+816.4609 	EXP 	image_3: image = 'Images_Faces/SH58.png'
+816.4609 	EXP 	text_8: height = 0.1
+816.4609 	EXP 	text_8: height = 0.1
+816.4609 	EXP 	text_8: height = 0.1
+816.4609 	EXP 	text_8: text = ''
+816.4609 	EXP 	text_8: height = 0.1
+816.4609 	EXP 	text_8: height = 0.1
+816.4609 	EXP 	text_8: height = 0.1
+816.4609 	EXP 	text_8: text = 'Undersköterska'
+816.4609 	EXP 	image_3: autoDraw = True
+816.4609 	EXP 	text_8: autoDraw = True
+820.4479 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Bonde'}
+820.4633 	EXP 	image_3: autoDraw = False
+820.4633 	EXP 	text_8: autoDraw = False
+820.4633 	EXP 	polygon: autoDraw = True
+822.4729 	EXP 	polygon: autoDraw = False
+822.4729 	EXP 	polygon: autoDraw = False
+822.4729 	EXP 	image_3: image = 'Images_Faces/SH57.png'
+822.4729 	EXP 	text_8: height = 0.1
+822.4729 	EXP 	text_8: height = 0.1
+822.4729 	EXP 	text_8: height = 0.1
+822.4729 	EXP 	text_8: text = ''
+822.4729 	EXP 	text_8: height = 0.1
+822.4729 	EXP 	text_8: height = 0.1
+822.4729 	EXP 	text_8: height = 0.1
+822.4729 	EXP 	text_8: text = 'Bonde'
+822.4729 	EXP 	image_3: autoDraw = True
+822.4729 	EXP 	text_8: autoDraw = True
+826.4642 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Gruvarbetare'}
+826.4806 	EXP 	image_3: autoDraw = False
+826.4806 	EXP 	text_8: autoDraw = False
+826.4806 	EXP 	polygon: autoDraw = True
+828.4890 	EXP 	polygon: autoDraw = False
+828.4890 	EXP 	polygon: autoDraw = False
+828.4890 	EXP 	image_3: image = 'Images_Faces/SH56.png'
+828.4890 	EXP 	text_8: height = 0.1
+828.4890 	EXP 	text_8: height = 0.1
+828.4890 	EXP 	text_8: height = 0.1
+828.4890 	EXP 	text_8: text = ''
+828.4890 	EXP 	text_8: height = 0.1
+828.4890 	EXP 	text_8: height = 0.1
+828.4890 	EXP 	text_8: height = 0.1
+828.4890 	EXP 	text_8: text = 'Gruvarbetare'
+828.4890 	EXP 	image_3: autoDraw = True
+828.4890 	EXP 	text_8: autoDraw = True
+832.5573 	EXP 	image_3: autoDraw = False
+832.5573 	EXP 	text_8: autoDraw = False
+832.5573 	EXP 	text_6: text = 'Välj första bokstaven i personens yrkestitel'
+832.5573 	EXP 	fingers: text = '1 - Pekfinger, 2 - Långfinger, 3 - Ringfinger, 4 - Lillfinger'
+832.5573 	EXP 	text_6: autoDraw = True
+832.5573 	EXP 	fingers: autoDraw = True
+838.4850 	DEBUG 	Read excel file with openpyxl: Profession_condition.xlsx
+838.4861 	EXP 	Imported Profession_condition.xlsx as conditions, 5 conditions, 3 params
+838.4864 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+838.4866 	EXP 	New trial (rep=0, index=0): {'StimFile': 'Images_Faces/SH60.png', 'Name': 0, 'Proffession': 'Polis'}
+838.4964 	EXP 	text_6: autoDraw = False
+838.4964 	EXP 	fingers: autoDraw = False
+838.4964 	EXP 	polygon: autoDraw = True
+840.5118 	EXP 	polygon: autoDraw = False
+840.5118 	EXP 	polygon: autoDraw = False
+840.5118 	EXP 	image: image = 'Images_Faces/SH60.png'
+840.5118 	EXP 	letters_text: height = 0.1
+840.5118 	EXP 	letters_text: height = 0.1
+840.5118 	EXP 	letters_text: height = 0.1
+840.5118 	EXP 	letters_text: text = 'M.\t\t\t\tP.\t\t\t\tA.\t\t\t\tNY'
+840.5118 	EXP 	image: autoDraw = True
+840.5118 	EXP 	letters_text: autoDraw = True
+844.4975 	EXP 	New trial (rep=0, index=1): {'StimFile': 'Images_Faces/SH58.png', 'Name': 0, 'Proffession': 'Undersköterska'}
+844.5128 	EXP 	image: autoDraw = False
+844.5128 	EXP 	letters_text: autoDraw = False
+844.5128 	EXP 	polygon: autoDraw = True
+846.5194 	EXP 	polygon: autoDraw = False
+846.5194 	EXP 	polygon: autoDraw = False
+846.5194 	EXP 	image: image = 'Images_Faces/SH58.png'
+846.5194 	EXP 	letters_text: height = 0.1
+846.5194 	EXP 	letters_text: height = 0.1
+846.5194 	EXP 	letters_text: height = 0.1
+846.5194 	EXP 	letters_text: text = 'F.\t\t\t\tH.\t\t\t\tU.\t\t\t\tNY'
+846.5194 	EXP 	image: autoDraw = True
+846.5194 	EXP 	letters_text: autoDraw = True
+850.5141 	EXP 	New trial (rep=0, index=2): {'StimFile': 'Images_Faces/SH56.png', 'Name': 0, 'Proffession': 'Gruvarbetare'}
+850.5302 	EXP 	image: autoDraw = False
+850.5302 	EXP 	letters_text: autoDraw = False
+850.5302 	EXP 	polygon: autoDraw = True
+852.5378 	EXP 	polygon: autoDraw = False
+852.5378 	EXP 	polygon: autoDraw = False
+852.5378 	EXP 	image: image = 'Images_Faces/SH56.png'
+852.5378 	EXP 	letters_text: height = 0.1
+852.5378 	EXP 	letters_text: height = 0.1
+852.5378 	EXP 	letters_text: height = 0.1
+852.5378 	EXP 	letters_text: text = 'A.\t\t\t\tG.\t\t\t\tD.\t\t\t\tNY'
+852.5378 	EXP 	image: autoDraw = True
+852.5378 	EXP 	letters_text: autoDraw = True
+856.5303 	EXP 	New trial (rep=0, index=3): {'StimFile': 'Images_Faces/SH57.png', 'Name': 0, 'Proffession': 'Bonde'}
+856.5465 	EXP 	image: autoDraw = False
+856.5465 	EXP 	letters_text: autoDraw = False
+856.5465 	EXP 	polygon: autoDraw = True
+858.5576 	EXP 	polygon: autoDraw = False
+858.5576 	EXP 	polygon: autoDraw = False
+858.5576 	EXP 	image: image = 'Images_Faces/SH57.png'
+858.5576 	EXP 	letters_text: height = 0.1
+858.5576 	EXP 	letters_text: height = 0.1
+858.5576 	EXP 	letters_text: height = 0.1
+858.5576 	EXP 	letters_text: text = 'I.\t\t\t\tD.\t\t\t\tB.\t\t\t\tNY'
+858.5576 	EXP 	image: autoDraw = True
+858.5576 	EXP 	letters_text: autoDraw = True
+862.5469 	EXP 	New trial (rep=0, index=4): {'StimFile': 'Images_Faces/SH59.png', 'Name': 0, 'Proffession': 'Körskollärare'}
+862.5630 	EXP 	image: autoDraw = False
+862.5630 	EXP 	letters_text: autoDraw = False
+862.5630 	EXP 	polygon: autoDraw = True
+864.5706 	EXP 	polygon: autoDraw = False
+864.5706 	EXP 	polygon: autoDraw = False
+864.5706 	EXP 	image: image = 'Images_Faces/SH59.png'
+864.5706 	EXP 	letters_text: height = 0.1
+864.5706 	EXP 	letters_text: height = 0.1
+864.5706 	EXP 	letters_text: height = 0.1
+864.5706 	EXP 	letters_text: text = 'V.\t\t\t\tK.\t\t\t\tS.\t\t\t\tNY'
+864.5706 	EXP 	image: autoDraw = True
+864.5706 	EXP 	letters_text: autoDraw = True
+868.6451 	EXP 	image: autoDraw = False
+868.6451 	EXP 	letters_text: autoDraw = False
+868.6451 	EXP 	text_2: autoDraw = True
+874.5795 	EXP 	text_2: autoDraw = False
+874.5827 	INFO 	saved data to C:\Users\Hassl\OneDrive - Lund University\Biofinder\fMRI-tasks\FacesNamesProfessions_fMRI\Encoding_Recall\data/full_test_FacesNamesProffessions_Encoding_2023-02-23_15h51.06.940.psydat
+874.6406 	EXP 	window1: mouseVisible = True
+875.1583 	DEBUG 	Saving data for FacesNamesProffessions_Encoding ExperimentHandler
